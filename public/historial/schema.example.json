@@ -1,0 +1,26 @@
+{
+  "_descripcion": "Formato de snapshot diario. Este archivo es referencia del schema — no se carga en producción.",
+  "_ubicacion": "public/historial/YYYY-MM-DD.json",
+  "_generado_por": "scripts/snapshot.ts (pendiente de implementación)",
+  "_frecuencia": "Días hábiles bursátiles, ~20hs Argentina",
+
+  "fecha": "2026-05-19",
+  "generado_en": "2026-05-19T23:00:00Z",
+  "fuente_ingestión": "CAFCI",
+
+  "fondos": [
+    {
+      "_comentario": "Un objeto por cada fondo activo al momento del snapshot",
+      "id": "fci-001",
+      "valor_cuotaparte": 1842563.45,
+      "moneda": "ARS",
+      "patrimonio_neto": 14800000000
+    },
+    {
+      "id": "fci-002",
+      "valor_cuotaparte": 3201.88,
+      "moneda": "ARS",
+      "patrimonio_neto": 87200000000
+    }
+  ]
+}

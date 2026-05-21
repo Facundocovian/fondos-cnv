@@ -1,0 +1,7081 @@
+{
+  "meta": {
+    "ultima_actualizacion": "2026-05-19",
+    "fuente": "CNV / CAFCI",
+    "total_registros": 20
+  },
+  "fondos": [
+    {
+      "id": "fci-001",
+      "nombre": "Schroder Renta Fija Argentina",
+      "sociedad_gerente": "Schroder Investment Management SA",
+      "sociedad_depositaria": "Banco Galicia SA",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "ARS",
+      "objeto_inversion": "Instrumentos de renta fija soberanos y corporativos en pesos, incluyendo letras del Tesoro, bonos CER y obligaciones negociables de alta calificación crediticia.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1842563.45,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-001",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-001.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-001",
+      "composicion_mock": [
+        {
+          "instrumento": "Letras del Tesoro (Lecap)",
+          "porcentaje": 42.3
+        },
+        {
+          "instrumento": "Bonos CER (TX26)",
+          "porcentaje": 28.1
+        },
+        {
+          "instrumento": "ON Corporativas",
+          "porcentaje": 15.6
+        },
+        {
+          "instrumento": "Cauciones Bursátiles",
+          "porcentaje": 9
+        },
+        {
+          "instrumento": "Efectivo y disponibilidades",
+          "porcentaje": 5
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1447696.58
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1458081.31
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1467559.66
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1467722.68
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1480481.9
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1486507.01
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1498840.5
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1502469.26
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1510048.6
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1521051.95
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1520925.99
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1531545.04
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1543626.88
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1543996.92
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1540804.12
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1544720.74
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1553285.02
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1565651.36
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1566330.32
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1559864.96
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1554851.89
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1565291.78
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1575714.76
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1575242.44
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1574567.07
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1582332.03
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1576405.08
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1585618.6
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1599538.6
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1599913.34
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1612603.6
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1616320.29
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1623946.8
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1626025.19
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1621576.5
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1623283.1
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1633268.52
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1638471.24
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1647271.54
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1646080.55
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1655264.85
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1657386.39
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1667740.71
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1682472.94
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1676666.07
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1683277.64
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1690818.82
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1698672.35
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1703289.11
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1719041.86
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1717506.38
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1715453.25
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1726508.84
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1716522.82
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1732598.14
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1738032.21
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1735660.61
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1738040.71
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1727754.55
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1725946.66
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1739083.87
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1731064.83
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1724925.57
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1733159.88
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1734444.94
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1731956.33
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1735363.8
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1736639.21
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1744606.61
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1761821.47
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1778052.86
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1778882.54
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1795463.44
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1796024.26
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1798418.95
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1807702.98
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1798930.74
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1815879.49
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1826537.68
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1816685.87
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1828501.28
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1834912.41
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1839944.1
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1843445.24
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1835643.79
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 1851300.17
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1858940.64
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1863883.77
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1853135.47
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1842563.45
+        }
+      ],
+      "rendimientos": {
+        "diario": -0.57,
+        "semanal": 0.14,
+        "mensual": 6.76,
+        "trimestral": 27.28,
+        "anual": 105,
+        "ytd": 31.44
+      },
+      "aum_millones": 14800,
+      "rescate_plazo": "T+1",
+      "comision_administracion": 2,
+      "horizonte_inversion": "Mediano plazo (6–18 meses)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-002",
+      "nombre": "Balanz Capital Money Market",
+      "sociedad_gerente": "Balanz Capital Valores SA",
+      "sociedad_depositaria": "Banco Santander Argentina SA",
+      "tipo_fondo": "Money Market",
+      "moneda": "ARS",
+      "objeto_inversion": "Instrumentos de corto plazo: plazos fijos, cuentas remuneradas, letras de liquidez del BCRA (LELIQ) y fondos comunes de dinero de muy alta liquidez.",
+      "estado": "Activo",
+      "valor_cuotaparte": 3201.88,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-002",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-002.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-002",
+      "composicion_mock": [
+        {
+          "instrumento": "Cuentas remuneradas",
+          "porcentaje": 55
+        },
+        {
+          "instrumento": "Plazos fijos",
+          "porcentaje": 30
+        },
+        {
+          "instrumento": "LELIQ / LEFI",
+          "porcentaje": 12
+        },
+        {
+          "instrumento": "Efectivo",
+          "porcentaje": 3
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 2805.27
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2809.44
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2813.62
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 2817.8
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2821.99
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2826.19
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 2830.39
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 2834.6
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 2838.82
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 2843.04
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 2847.26
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 2851.5
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 2855.74
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 2859.98
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 2864.24
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 2868.49
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 2872.76
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 2877.03
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 2881.31
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 2885.59
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 2889.88
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 2894.18
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 2898.49
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 2902.79
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 2907.11
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 2911.43
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 2915.76
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 2920.1
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 2924.44
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 2928.79
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 2933.14
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 2937.5
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 2941.87
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 2946.25
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2950.63
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2955.02
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 2959.41
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2963.81
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 2968.22
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2972.63
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2977.05
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 2981.48
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 2985.91
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 2990.35
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 2994.8
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 2999.25
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 3003.71
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 3008.18
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 3012.65
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 3017.13
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 3021.61
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 3026.11
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 3030.61
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 3035.11
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 3039.63
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 3044.15
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 3048.67
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 3053.21
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 3057.75
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 3062.29
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 3066.85
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 3071.41
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 3075.97
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 3080.55
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 3085.13
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 3089.71
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 3094.31
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 3098.91
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 3103.52
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 3108.13
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 3112.75
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 3117.38
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 3122.02
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 3126.66
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 3131.31
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 3135.96
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 3140.63
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 3145.3
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 3149.97
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 3154.66
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 3159.35
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 3164.05
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 3168.75
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 3173.46
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 3178.18
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 3182.91
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 3187.64
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 3192.38
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 3197.13
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 3201.88
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.15,
+        "semanal": 1.05,
+        "mensual": 4.56,
+        "trimestral": 14.14,
+        "anual": 72,
+        "ytd": 22.94
+      },
+      "aum_millones": 87200,
+      "rescate_plazo": "T+0",
+      "comision_administracion": 0.8,
+      "horizonte_inversion": "Corto plazo (< 6 meses)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-003",
+      "nombre": "BBVA Renta Variable Argentina",
+      "sociedad_gerente": "BBVA Asset Management Argentina SAU",
+      "sociedad_depositaria": "Banco BBVA Argentina SA",
+      "tipo_fondo": "Renta Variable",
+      "moneda": "ARS",
+      "objeto_inversion": "Acciones de empresas que cotizan en el Mercado Abierto Electrónico y en el Merval. Exposición diversificada a sectores energético, financiero e industrial argentino.",
+      "estado": "Activo",
+      "valor_cuotaparte": 987432.12,
+      "fecha_valor": "2026-05-18",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-003",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-003.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-003",
+      "composicion_mock": [
+        {
+          "instrumento": "YPF SA (YPFD)",
+          "porcentaje": 22.5
+        },
+        {
+          "instrumento": "Banco Macro (BMA)",
+          "porcentaje": 18.3
+        },
+        {
+          "instrumento": "MercadoLibre (MELI)",
+          "porcentaje": 15.7
+        },
+        {
+          "instrumento": "Pampa Energía (PAMP)",
+          "porcentaje": 12.1
+        },
+        {
+          "instrumento": "TGS (TGSU2)",
+          "porcentaje": 9.4
+        },
+        {
+          "instrumento": "Otros",
+          "porcentaje": 22
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 665485.02
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 658651.45
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 652253.18
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 660700.81
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 662994.13
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 672789.83
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 682957.66
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 691274.94
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 682769.52
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 690846.24
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 687294.73
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 693022.63
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 683247.62
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 679676.57
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 691384.89
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 697614.82
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 701391.8
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 715651.02
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 716664.82
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 726352.85
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 722224.09
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 735785.54
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 745227.16
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 747522.92
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 749679.61
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 741475.27
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 744067.3
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 757757.13
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 748438.04
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 760006.73
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 766188.64
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 767921.23
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 757719.84
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 760810.3
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 759939.5
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 755301.04
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 754367.67
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 768128.92
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 779163.65
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 787536.56
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 779637.05
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 789811.98
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 790329.26
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 795353.55
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 787757.16
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 795856.65
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 793544.54
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 804710.44
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 806146.6
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 805981.91
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 817978.11
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 833684.15
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 850923.67
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 863394.98
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 870110.4
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 880019.74
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 870552.12
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 877639.42
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 895229.24
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 889696.06
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 885554.44
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 883639.63
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 877953.59
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 866532.8
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 876479.56
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 889632.21
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 876349.13
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 877859.7
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 893266.46
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 909703.62
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 914575.24
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 915568.18
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 910130.78
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 921723.06
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 919440.14
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 908356.38
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 909356.68
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 917527.45
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 928628.89
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 932170.23
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 924336.93
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 936068.87
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 934208.53
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 946989.69
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 935861.82
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 954114.03
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 959224.94
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 978915.79
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 981464.73
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 987432.12
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.61,
+        "semanal": 5.7,
+        "mensual": 10.99,
+        "trimestral": 48.38,
+        "anual": 185,
+        "ytd": 49.01
+      },
+      "aum_millones": 8450,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 3.2,
+      "horizonte_inversion": "Largo plazo (> 3 años)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-004",
+      "nombre": "Cohen Renta Mixta Dólar",
+      "sociedad_gerente": "Cohen SA",
+      "sociedad_depositaria": "Banco Ciudad de Buenos Aires",
+      "tipo_fondo": "Renta Mixta",
+      "moneda": "USD",
+      "objeto_inversion": "Cartera balanceada en dólares: bonos soberanos hard dollar, acciones con ADR y activos de renta fija corporativa internacional.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1.4823,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-004",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-004.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-004",
+      "composicion_mock": [
+        {
+          "instrumento": "Bonos Soberanos USD (GD30)",
+          "porcentaje": 35
+        },
+        {
+          "instrumento": "Bonos Corporativos USD",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "ADRs Argentinos",
+          "porcentaje": 20
+        },
+        {
+          "instrumento": "Treasuries USA 2Y",
+          "porcentaje": 12
+        },
+        {
+          "instrumento": "Liquidez USD",
+          "porcentaje": 8
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1.3847
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1.39
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1.3876
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1.396
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1.4017
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1.401
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1.3983
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1.405
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1.4015
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1.4055
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1.4098
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1.4114
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1.4137
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1.4178
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1.4135
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1.418
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1.4269
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1.428
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1.4368
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1.4309
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1.428
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1.4287
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1.4337
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1.4356
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1.4373
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1.4348
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1.4302
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1.4311
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1.4256
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1.4188
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1.4113
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1.4196
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1.4157
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1.4173
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1.4259
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1.429
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1.4328
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1.435
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1.4333
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1.4408
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1.4387
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1.4468
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1.452
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1.4513
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1.4456
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1.4417
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1.4366
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1.4437
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1.4516
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1.4458
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1.4479
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1.4445
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1.4467
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1.4425
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1.4511
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1.4484
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1.4408
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1.4454
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1.4538
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1.4494
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1.4413
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1.4503
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1.4557
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1.4605
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1.4679
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1.4616
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1.4578
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1.4581
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1.4503
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1.449
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1.456
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1.456
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1.4635
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1.4633
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1.4602
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1.4655
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1.4684
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1.4604
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1.4655
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1.4707
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1.4692
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1.476
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1.4724
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1.4809
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1.4828
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 1.4831
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1.4842
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1.4884
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1.4841
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1.4823
+        }
+      ],
+      "rendimientos": {
+        "diario": -0.12,
+        "semanal": 0.67,
+        "mensual": 2.27,
+        "trimestral": 7.05,
+        "anual": 12,
+        "ytd": 4.41
+      },
+      "aum_millones": 118,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 2,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-005",
+      "nombre": "Fima Premium (Galicia)",
+      "sociedad_gerente": "Fima SA Gerente de FCI",
+      "sociedad_depositaria": "Banco Galicia SA",
+      "tipo_fondo": "Money Market",
+      "moneda": "ARS",
+      "objeto_inversion": "Fondo de liquidez inmediata en pesos. Invierte principalmente en plazos fijos a la vista y cuentas remuneradas de entidades financieras de primera línea.",
+      "estado": "Activo",
+      "valor_cuotaparte": 2894.56,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-005",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-005.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-005",
+      "composicion_mock": [
+        {
+          "instrumento": "Cuentas remuneradas",
+          "porcentaje": 70
+        },
+        {
+          "instrumento": "Plazos fijos 7d",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "Efectivo",
+          "porcentaje": 5
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 2550.61
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2554.24
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2557.87
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 2561.51
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2565.15
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2568.8
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 2572.46
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 2576.11
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 2579.78
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 2583.45
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 2587.12
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 2590.8
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 2594.49
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 2598.18
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 2601.87
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 2605.57
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 2609.28
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 2612.99
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 2616.71
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 2620.43
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 2624.16
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 2627.89
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 2631.63
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 2635.37
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 2639.12
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 2642.87
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 2646.63
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 2650.4
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 2654.17
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 2657.94
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 2661.72
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 2665.51
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 2669.3
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 2673.1
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2676.9
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2680.71
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 2684.52
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2688.34
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 2692.16
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2695.99
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2699.82
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 2703.66
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 2707.51
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 2711.36
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 2715.22
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 2719.08
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 2722.95
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 2726.82
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 2730.7
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 2734.58
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 2738.47
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 2742.37
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 2746.27
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 2750.17
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 2754.09
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2758
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2761.93
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2765.86
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2769.79
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 2773.73
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2777.67
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2781.62
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2785.58
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2789.54
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2793.51
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2797.48
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 2801.46
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2805.45
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2809.44
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2813.43
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2817.44
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 2821.44
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2825.46
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 2829.48
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2833.5
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2837.53
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 2841.57
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 2845.61
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 2849.66
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 2853.71
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 2857.77
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 2861.83
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 2865.9
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 2869.98
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 2874.06
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 2878.15
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 2882.24
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 2886.34
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 2890.45
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 2894.56
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.14,
+        "semanal": 1,
+        "mensual": 4.36,
+        "trimestral": 13.49,
+        "anual": 68,
+        "ytd": 21.84
+      },
+      "aum_millones": 44500,
+      "rescate_plazo": "T+0",
+      "comision_administracion": 0.6,
+      "horizonte_inversion": "Corto plazo (< 6 meses)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-006",
+      "nombre": "SBS Renta y Crecimiento",
+      "sociedad_gerente": "SBS Asset Management SA",
+      "sociedad_depositaria": "Banco Bradesco Argentina SA",
+      "tipo_fondo": "Renta Mixta",
+      "moneda": "ARS",
+      "objeto_inversion": "Estrategia mixta que combina renta fija soberana en pesos con una parte accionaria de entre 30% y 50% del patrimonio. Orientado a crecimiento a mediano plazo.",
+      "estado": "Activo",
+      "valor_cuotaparte": 456789.33,
+      "fecha_valor": "2026-05-16",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-006",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-006.pdf",
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "Bonos CER",
+          "porcentaje": 40
+        },
+        {
+          "instrumento": "Acciones locales",
+          "porcentaje": 38
+        },
+        {
+          "instrumento": "ON Corporativas",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "Liquidez",
+          "porcentaje": 7
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 367422.6
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 365282.65
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 367549.97
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 367427.73
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 367577.89
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 369334.03
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 368344.56
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 366231.16
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 368186.87
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 369900.61
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 371714.16
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 371852.19
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 374643.38
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 376208.98
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 379854.54
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 383514.99
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 386971.13
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 388981.78
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 386275.22
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 389520.83
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 389528.08
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 391622.85
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 394452.14
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 397106.1
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 399766.13
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 402740.91
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 404257.62
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 406878.23
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 406205.33
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 407390.02
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 410776.48
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 415174.59
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 417080.19
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 419229.25
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 417312.42
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 417912.03
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 417342.58
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 422038.12
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 422784.8
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 422010.36
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 425173.12
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 424157.2
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 424616.7
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 422134.37
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 420063.23
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 419548.26
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 423514.02
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 420431.47
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 424328.98
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 426137.9
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 423681
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 428255.51
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 431906.04
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 428920.82
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 431121.5
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 431908.02
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 436012.79
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 440644.79
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 445412.84
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 443303.88
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 443813.85
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 442717.7
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 446967.82
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 444674.68
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 443091.68
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 445493.16
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 448817.05
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 450120.23
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 449067.34
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 448592.78
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 449512.93
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 450645.94
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 448916.53
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 452953.22
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 451117.66
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 449071.95
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 445711.03
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 448697.99
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 452147.1
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 450925.08
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 454542.24
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 451333.87
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 448619.39
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 447417.75
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 448984.6
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 450323.99
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 451039.62
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 448970.54
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 451806.42
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 456789.33
+        }
+      ],
+      "rendimientos": {
+        "diario": 1.1,
+        "semanal": 1.82,
+        "mensual": 3.04,
+        "trimestral": 24.32,
+        "anual": 122,
+        "ytd": 35.49
+      },
+      "aum_millones": 6180,
+      "rescate_plazo": "T+1",
+      "comision_administracion": 2.5,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-007",
+      "nombre": "Allaria Renta Argentina USD",
+      "sociedad_gerente": "Allaria Fondos SA",
+      "sociedad_depositaria": "Banco de la Nación Argentina",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "USD",
+      "objeto_inversion": "Bonos soberanos y subsoberanos argentinos denominados en dólares. Exposure a curva hard dollar con gestión activa de duration.",
+      "estado": "Activo",
+      "valor_cuotaparte": 0.9421,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-007",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-007.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-007",
+      "composicion_mock": [
+        {
+          "instrumento": "GD30 (Bonos 2030 USD)",
+          "porcentaje": 30
+        },
+        {
+          "instrumento": "AL35 (Bonos 2035 USD)",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "GD46 (Bonos 2046 USD)",
+          "porcentaje": 20
+        },
+        {
+          "instrumento": "Bonos Provinciales USD",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "Liquidez USD",
+          "porcentaje": 10
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 0.9128
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 0.9148
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 0.9178
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 0.9185
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 0.9203
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 0.9185
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 0.9204
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 0.9185
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 0.9212
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 0.922
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 0.9192
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 0.9181
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 0.9172
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 0.914
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 0.912
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 0.9154
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 0.9139
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 0.9119
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 0.9126
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 0.9103
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 0.91
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 0.9082
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 0.9102
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 0.9126
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 0.915
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 0.9187
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 0.9171
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 0.9159
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 0.9153
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 0.9174
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 0.9153
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 0.9149
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 0.9173
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 0.9189
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 0.9209
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 0.9238
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 0.925
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 0.9262
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 0.9229
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 0.923
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 0.9267
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 0.9264
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 0.9287
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 0.9321
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 0.9296
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 0.9326
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 0.9343
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 0.9315
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 0.9303
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 0.9293
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 0.9321
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 0.9305
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 0.9302
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 0.93
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 0.9338
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 0.9307
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 0.933
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 0.9296
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 0.9329
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 0.9302
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 0.928
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 0.9312
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 0.9307
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 0.9333
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 0.9326
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 0.936
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 0.9326
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 0.9332
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 0.9326
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 0.9351
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 0.9376
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 0.9381
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 0.9409
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 0.9413
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 0.9387
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 0.9416
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 0.9396
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 0.9366
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 0.9389
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 0.9391
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 0.943
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 0.9404
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 0.9443
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 0.9438
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 0.9407
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 0.9376
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 0.9373
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 0.9404
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 0.9402
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 0.9421
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.2,
+        "semanal": -0.23,
+        "mensual": 1.28,
+        "trimestral": 3.21,
+        "anual": 8,
+        "ytd": 2.97
+      },
+      "aum_millones": 82,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 1.5,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-008",
+      "nombre": "Banco Nación Acciones",
+      "sociedad_gerente": "Nación Fideicomisos SA",
+      "sociedad_depositaria": "Banco de la Nación Argentina",
+      "tipo_fondo": "Renta Variable",
+      "moneda": "ARS",
+      "objeto_inversion": "Acciones de empresas argentinas que forman parte del índice Merval. Gestión pasiva replicando el benchmark con rebalanceo trimestral.",
+      "estado": "Activo",
+      "valor_cuotaparte": 2341.77,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CNV",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-008",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-008.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-008",
+      "composicion_mock": [
+        {
+          "instrumento": "YPF SA",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "Banco Macro",
+          "porcentaje": 20
+        },
+        {
+          "instrumento": "Grupo Financiero Galicia",
+          "porcentaje": 18
+        },
+        {
+          "instrumento": "Pampa Energía",
+          "porcentaje": 14
+        },
+        {
+          "instrumento": "Cablevisión Holding",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "Otros Merval",
+          "porcentaje": 13
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1785.46
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1783.86
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1755.5
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1781.81
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1748.72
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1779.44
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1761.57
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1754.17
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1724.4
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1732.77
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1741.3
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1727.37
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1764.98
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1769.11
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1776.64
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1743.62
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1763.48
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1789.19
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1763.11
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1767.61
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1771.37
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1800.62
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1824.85
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1860.59
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1897.13
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1877.45
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1920.73
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1960.82
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1963.53
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 2012.34
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 2025.64
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 2066.51
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 2118.33
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 2145.86
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2137.84
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2122.87
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 2171.21
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2159.23
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 2174.07
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2198.61
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2174.6
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 2190.61
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 2160.38
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 2192.37
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 2164.35
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 2162.66
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 2173.73
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 2148.96
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 2181.83
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 2146.68
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 2164.19
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 2178.7
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 2140.57
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 2180.83
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 2170.44
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2191.06
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2216.71
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2185.11
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2230.49
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 2197.26
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2241.43
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2252.19
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2304.44
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2313.39
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2323.46
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2301.16
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 2284.94
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2300.17
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2309.1
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2293.45
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2261.15
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 2274.23
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2280.73
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 2259.49
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2224.66
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2236.42
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 2232.89
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 2232.91
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 2268.08
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 2299.25
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 2275.54
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 2254
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 2301.32
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 2314.64
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 2326.62
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 2343.23
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 2340.62
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 2359.06
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 2333.42
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 2341.77
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.36,
+        "semanal": 1.76,
+        "mensual": 6.58,
+        "trimestral": 31.16,
+        "anual": 210,
+        "ytd": 53.86
+      },
+      "aum_millones": 4250,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 3.5,
+      "horizonte_inversion": "Largo plazo (> 3 años)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-009",
+      "nombre": "Megainver Infraestructura Argentina",
+      "sociedad_gerente": "Megainver SA",
+      "sociedad_depositaria": "Banco HSBC Argentina SA",
+      "tipo_fondo": "Infraestructura",
+      "moneda": "ARS",
+      "objeto_inversion": "Fondo cerrado de inversión en proyectos de infraestructura: energías renovables, gasoductos, agua potable y red vial. Plazo de desinversión estimado 10 años.",
+      "estado": "Activo",
+      "valor_cuotaparte": 125000,
+      "fecha_valor": "2026-03-31",
+      "fuente_dato": "CNV",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-009",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-009.pdf",
+      "link_composicion": "https://www.cnv.gov.ar/composicion/fci-009",
+      "composicion_mock": [
+        {
+          "instrumento": "Proyectos energía renovable",
+          "porcentaje": 45
+        },
+        {
+          "instrumento": "Gasoducto Néstor Kirchner",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "Autopistas concesionadas",
+          "porcentaje": 20
+        },
+        {
+          "instrumento": "Reservas y liquidez",
+          "porcentaje": 10
+        }
+      ],
+      "historial_cuotapartes": [],
+      "rendimientos": {
+        "diario": null,
+        "semanal": null,
+        "mensual": null,
+        "trimestral": null,
+        "anual": null,
+        "ytd": null
+      },
+      "aum_millones": 21800,
+      "rescate_plazo": null,
+      "comision_administracion": 1,
+      "horizonte_inversion": "Muy largo plazo (> 10 años)",
+      "inversion_minima": 1000000
+    },
+    {
+      "id": "fci-010",
+      "nombre": "Criteria AR Dollar Hedge",
+      "sociedad_gerente": "Criteria SA",
+      "sociedad_depositaria": "Banco Comafi SA",
+      "tipo_fondo": "Hedging",
+      "moneda": "ARS",
+      "objeto_inversion": "Fondo de cobertura cambiaria. Invierte en instrumentos indexados al tipo de cambio oficial y al CCL para proteger contra la depreciación del peso.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1543210,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-010",
+      "link_reglamento": null,
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "Bonos dólar linked",
+          "porcentaje": 60
+        },
+        {
+          "instrumento": "Futuros ROFEX USD",
+          "porcentaje": 25
+        },
+        {
+          "instrumento": "Letras dólar linked",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "Liquidez ARS",
+          "porcentaje": 5
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1355871.44
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1362249.69
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1363250.19
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1359115.68
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1363320.33
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1356551.4
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1352048.32
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1355482.41
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1356378.78
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1357773.1
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1358994.41
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1353347.07
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1347662.63
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1347341.35
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1343462.64
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1338930.51
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1341792.92
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1350967.82
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1346635.6
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1342515.3
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1345921.4
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1356607.75
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1362991.57
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1356110.31
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1349335.56
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1353907.04
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1352866.03
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1347374.35
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1351733.04
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1353050.62
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1352489.86
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1361336.78
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1361260.98
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1369238.52
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1372001.73
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1366153.86
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1369762.04
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1374981.49
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1380939.94
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1374949.51
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1379076.3
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1389496.76
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1397355.49
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1398353.74
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1393456.67
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1395629.05
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1392611.77
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1391277.18
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1397457.27
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1400198.36
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1395192.21
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1392269.39
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1389614.54
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1395178.49
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1407139.6
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1415536.32
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1418358.8
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1416500.36
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1426190.31
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1419102.88
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1417946.84
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1426425.76
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1419639.71
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1429943.52
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1439180.21
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1446804
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1454743.86
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1459701.65
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1467445.65
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1463960.8
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1470987.08
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1475566.56
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1483983.05
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1488398.41
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1500639.87
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1512249.66
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1520462.43
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1515160.36
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1524010.26
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1520709.54
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1525299.89
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1525476.78
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1532747.73
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1543104.58
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1546250.79
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 1551898.28
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1550931.97
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1543832.66
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1549790.71
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1543210
+        }
+      ],
+      "rendimientos": {
+        "diario": -0.42,
+        "semanal": 0.68,
+        "mensual": 8.75,
+        "trimestral": 13.82,
+        "anual": 82,
+        "ytd": 25.61
+      },
+      "aum_millones": 9520,
+      "rescate_plazo": "T+1",
+      "comision_administracion": 1.5,
+      "horizonte_inversion": "Corto plazo (< 6 meses)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-011",
+      "nombre": "Toronto Trust Renta Fija Corporativa",
+      "sociedad_gerente": "Toronto Trust SA",
+      "sociedad_depositaria": "Banco Itaú Argentina SA",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "ARS",
+      "objeto_inversion": "Obligaciones negociables de empresas argentinas de primera línea (energía, telecomunicaciones, agroindustria). Calificación mínima BBB local.",
+      "estado": "Activo",
+      "valor_cuotaparte": 789654.22,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-011",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-011.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-011",
+      "composicion_mock": [
+        {
+          "instrumento": "ON YPF ARS",
+          "porcentaje": 30
+        },
+        {
+          "instrumento": "ON Telecom Argentina",
+          "porcentaje": 22
+        },
+        {
+          "instrumento": "ON Pan American Energy",
+          "porcentaje": 18
+        },
+        {
+          "instrumento": "ON Arcor",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "ON IRSA",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "Liquidez",
+          "porcentaje": 5
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 688004.48
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 688191.22
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 690402.7
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 690511.81
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 695076.75
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 697385.31
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 699618.93
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 702375.14
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 704668.48
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 705204.62
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 709849.05
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 706902.86
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 709540.58
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 713425.57
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 714723.75
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 713507.09
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 718713.11
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 719363.14
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 722215.79
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 723529.51
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 725753.02
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 727246.54
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 730385.17
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 728149.55
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 725965.29
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 730227.7
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 727284.08
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 730219.39
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 733192.63
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 736099.37
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 739534.51
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 739357.04
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 741286.37
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 745633.07
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 743549.52
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 744720.87
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 749480.96
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 749295.54
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 748347.86
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 747587.98
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 751661.76
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 749265.36
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 747208.56
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 746461.3
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 744476.76
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 741656.56
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 739152.26
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 739464.63
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 737783.37
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 736912.6
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 741622.76
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 743471.98
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 747959.53
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 745479.53
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 745310.72
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 745666.54
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 746463.2
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 746732.1
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 751260.21
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 757077.51
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 754285.59
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 755141.65
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 757271.46
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 759470.31
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 756290
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 753431.48
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 750506.88
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 753188.83
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 758003.67
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 761014.26
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 758116.51
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 760629.75
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 761424.28
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 760812.61
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 765969.04
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 768517.42
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 774126.81
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 775377.92
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 779613.56
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 780738.15
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 784945.19
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 786154.5
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 788801.14
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 785645.21
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 782515.86
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 780812.63
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 780384.82
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 784397.02
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 784824.58
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 789654.22
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.62,
+        "semanal": 0.11,
+        "mensual": 4.3,
+        "trimestral": 14.77,
+        "anual": 92,
+        "ytd": 28.2
+      },
+      "aum_millones": 10900,
+      "rescate_plazo": "T+1",
+      "comision_administracion": 2.2,
+      "horizonte_inversion": "Mediano plazo (6–18 meses)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-012",
+      "nombre": "Compass Renta Fija USD",
+      "sociedad_gerente": "Compass Group SA",
+      "sociedad_depositaria": "Banco Santander Argentina SA",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "USD",
+      "objeto_inversion": "Bonos corporativos internacionales de alta calificación (IG) y bonos emergentes seleccionados. Duration objetivo 3-5 años.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1.2134,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-012",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-012.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-012",
+      "composicion_mock": [
+        {
+          "instrumento": "US Treasuries 5Y",
+          "porcentaje": 35
+        },
+        {
+          "instrumento": "Bonos IG Corporativos USD",
+          "porcentaje": 40
+        },
+        {
+          "instrumento": "Bonos Emergentes (ex-AR)",
+          "porcentaje": 18
+        },
+        {
+          "instrumento": "Cash USD",
+          "porcentaje": 7
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1.1984
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1.1942
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1.1974
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1.1983
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1.1958
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1.1935
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1.1899
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1.193
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1.1963
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1.1954
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1.1943
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1.1987
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1.1965
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1.1944
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1.1979
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1.196
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1.1952
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1.2001
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1.1977
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1.2012
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1.203
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1.1994
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1.2017
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1.1988
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1.196
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1.1921
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1.1943
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1.1925
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1.1954
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1.1996
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1.1964
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1.1997
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1.2025
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1.2064
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1.2087
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1.2128
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1.2101
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1.2057
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1.2089
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1.2088
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1.2044
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1.2023
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1.2022
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1.1987
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1.1954
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1.1965
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1.2007
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1.2006
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1.2021
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1.2071
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1.2087
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1.2128
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1.2127
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1.2128
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1.2148
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1.2197
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1.2186
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1.2186
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1.2223
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1.2272
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1.2301
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1.2263
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1.2229
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1.2211
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1.2181
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1.2166
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1.2148
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1.2168
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1.2123
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1.2092
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1.208
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1.2098
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1.2061
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1.2109
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1.2148
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1.2133
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1.2102
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1.2138
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1.2172
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1.2196
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1.215
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1.216
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1.2167
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1.2138
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1.2142
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 1.2164
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1.2145
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1.2149
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1.2116
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1.2134
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.15,
+        "semanal": -0.27,
+        "mensual": -1.12,
+        "trimestral": 1.25,
+        "anual": 10,
+        "ytd": 3.7
+      },
+      "aum_millones": 175,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 1.2,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-013",
+      "nombre": "Quinquela Renta y Crecimiento",
+      "sociedad_gerente": "Quinquela Fondos SA",
+      "sociedad_depositaria": "Banco Macro SA",
+      "tipo_fondo": "Renta Mixta",
+      "moneda": "ARS",
+      "objeto_inversion": "Estrategia activa con exposición del 40-60% en renta fija (CER y Badlar) y 40-60% en renta variable doméstica. Orientado al inversor de perfil moderado.",
+      "estado": "Activo",
+      "valor_cuotaparte": 334512,
+      "fecha_valor": "2026-05-17",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-013",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-013.pdf",
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "Bonos CER",
+          "porcentaje": 35
+        },
+        {
+          "instrumento": "Acciones Merval",
+          "porcentaje": 40
+        },
+        {
+          "instrumento": "ON ARS",
+          "porcentaje": 18
+        },
+        {
+          "instrumento": "Cauciones",
+          "porcentaje": 7
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 258898.57
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 260643.68
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 264293.54
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 266563.04
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 267175.99
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 269898.85
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 270934.96
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 274232.18
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 271644.53
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 271177.59
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 273800.47
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 276698.77
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 279474.01
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 281405.17
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 279724.8
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 279331.24
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 282037.72
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 282946.82
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 285218.38
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 283691.05
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 285671.43
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 287489.93
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 289502.74
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 288398.26
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 287351.47
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 286447.16
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 286358.41
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 289615.47
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 292679.46
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 290831.37
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 291605.44
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 290839.6
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 294646.2
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 298279.21
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 297550.06
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 296748.51
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 297501.05
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 299491.84
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 299130.76
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 300931.83
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 299621.39
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 299682.84
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 302493.46
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 306362.61
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 304308.71
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 302229.22
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 304765.88
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 305699.04
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 303366.27
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 305621.49
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 305575.41
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 304164.91
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 301729.74
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 305235.42
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 302332.06
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 303434.35
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 302467.79
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 303645.67
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 306733.73
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 310641.26
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 311233.64
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 313582.92
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 315613.06
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 319961.49
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 319311.52
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 320716.6
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 321721.97
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 323973.08
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 321837.13
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 323514.87
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 325436.11
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 327537.57
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 330142.08
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 332195.36
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 335420.04
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 332292.98
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 331766.12
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 330071.92
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 333369.57
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 337810.45
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 336196.54
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 338242.89
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 338614.34
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 337960.15
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 334699.2
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 333246.12
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 331942.46
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 330542.49
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 334270.77
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 334512
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.07,
+        "semanal": -1.21,
+        "mensual": 7.68,
+        "trimestral": 29.21,
+        "anual": 135,
+        "ytd": 38.46
+      },
+      "aum_millones": 5750,
+      "rescate_plazo": "T+1",
+      "comision_administracion": 2.5,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 1000
+    },
+    {
+      "id": "fci-014",
+      "nombre": "AdCap Acciones Globales",
+      "sociedad_gerente": "AdCap Asset Management SA",
+      "sociedad_depositaria": "Banco Ciudad de Buenos Aires",
+      "tipo_fondo": "Renta Variable",
+      "moneda": "USD",
+      "objeto_inversion": "CEDEARs de empresas globales: tecnología, consumo y salud. Permite exposición en dólares a empresas del S&P500 y Nasdaq desde Argentina.",
+      "estado": "Activo",
+      "valor_cuotaparte": 2.8841,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-014",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-014.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-014",
+      "composicion_mock": [
+        {
+          "instrumento": "CEDEAR Apple (AAPL)",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "CEDEAR Microsoft (MSFT)",
+          "porcentaje": 12
+        },
+        {
+          "instrumento": "CEDEAR Nvidia (NVDA)",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "CEDEAR Amazon (AMZN)",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "CEDEAR Alphabet (GOOGL)",
+          "porcentaje": 8
+        },
+        {
+          "instrumento": "Otros CEDEARs",
+          "porcentaje": 45
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 2.7576
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 2.7478
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 2.7261
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 2.7604
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 2.7835
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 2.7801
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 2.7483
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 2.7162
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 2.697
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 2.6841
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 2.669
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 2.689
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 2.6838
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 2.6599
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 2.6603
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 2.6559
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 2.6391
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 2.6128
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 2.5986
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 2.6016
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 2.6193
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 2.6034
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 2.6177
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 2.607
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 2.597
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 2.5979
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 2.571
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 2.5708
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 2.6006
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 2.5935
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 2.6222
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 2.6426
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 2.6195
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 2.6522
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 2.681
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 2.6964
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 2.7207
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 2.7123
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 2.7428
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 2.7694
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 2.7661
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 2.7733
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 2.7484
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 2.7695
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 2.744
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 2.7571
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 2.7657
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 2.7749
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 2.7801
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 2.7778
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 2.7545
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 2.7589
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 2.7735
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 2.7604
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 2.751
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 2.7268
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 2.7063
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 2.7191
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 2.7429
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 2.7734
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 2.7537
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 2.745
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2.7266
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2.7403
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2.7404
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2.768
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 2.7904
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2.808
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2.7916
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2.7637
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2.7984
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 2.8144
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2.8076
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 2.7986
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2.8189
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2.8359
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 2.8397
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 2.8447
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 2.8706
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 2.8502
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 2.8451
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 2.8651
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 2.8563
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 2.8563
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 2.8576
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 2.8779
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 2.8579
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 2.8933
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 2.9035
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 2.8841
+        }
+      ],
+      "rendimientos": {
+        "diario": -0.67,
+        "semanal": 0.97,
+        "mensual": 3.99,
+        "trimestral": 4.59,
+        "anual": 28,
+        "ytd": 9.86
+      },
+      "aum_millones": 92,
+      "rescate_plazo": "T+72hs",
+      "comision_administracion": 3,
+      "horizonte_inversion": "Largo plazo (> 3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-015",
+      "nombre": "PPI Ahorro Plus",
+      "sociedad_gerente": "Portfolio Personal Inversiones SA",
+      "sociedad_depositaria": "Banco Provincia de Buenos Aires",
+      "tipo_fondo": "Money Market",
+      "moneda": "ARS",
+      "objeto_inversion": "Fondo T+0 para ahorro en pesos de corto plazo. Acreditación inmediata, sin plazo mínimo de permanencia.",
+      "estado": "Activo",
+      "valor_cuotaparte": 4512.34,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-015",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-015.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-015",
+      "composicion_mock": [
+        {
+          "instrumento": "Cuentas remuneradas",
+          "porcentaje": 65
+        },
+        {
+          "instrumento": "Plazos fijos corto plazo",
+          "porcentaje": 28
+        },
+        {
+          "instrumento": "Efectivo",
+          "porcentaje": 7
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 3964.7
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 3970.47
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 3976.24
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 3982.03
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 3987.82
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 3993.62
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 3999.43
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 4005.25
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 4011.08
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 4016.91
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 4022.76
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 4028.61
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 4034.47
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 4040.34
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 4046.22
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 4052.1
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 4058
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 4063.9
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 4069.82
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 4075.74
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 4081.67
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 4087.6
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 4093.55
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 4099.51
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 4105.47
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 4111.44
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 4117.43
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 4123.42
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 4129.41
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 4135.42
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 4141.44
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 4147.46
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 4153.5
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 4159.54
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 4165.59
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 4171.65
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 4177.72
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 4183.8
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 4189.89
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 4195.98
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 4202.09
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 4208.2
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 4214.32
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 4220.45
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 4226.59
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 4232.74
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 4238.9
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 4245.07
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 4251.24
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 4257.43
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 4263.62
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 4269.82
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 4276.03
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 4282.26
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 4288.49
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 4294.72
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 4300.97
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 4307.23
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 4313.5
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 4319.77
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 4326.06
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 4332.35
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 4338.65
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 4344.96
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 4351.29
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 4357.62
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 4363.96
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 4370.3
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 4376.66
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 4383.03
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 4389.41
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 4395.79
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 4402.19
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 4408.59
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 4415.01
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 4421.43
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 4427.86
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 4434.3
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 4440.75
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 4447.22
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 4453.69
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 4460.16
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 4466.65
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 4473.15
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 4479.66
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 4486.18
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 4492.7
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 4499.24
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 4505.78
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 4512.34
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.15,
+        "semanal": 1.02,
+        "mensual": 4.46,
+        "trimestral": 13.81,
+        "anual": 70,
+        "ytd": 22.39
+      },
+      "aum_millones": 31800,
+      "rescate_plazo": "T+0",
+      "comision_administracion": 1,
+      "horizonte_inversion": "Corto plazo (< 6 meses)",
+      "inversion_minima": 1
+    },
+    {
+      "id": "fci-016",
+      "nombre": "Consultatio Retorno Total",
+      "sociedad_gerente": "Consultatio Asset Management SA",
+      "sociedad_depositaria": "Banco HSBC Argentina SA",
+      "tipo_fondo": "Renta Mixta",
+      "moneda": "USD",
+      "objeto_inversion": "Fondo de retorno absoluto en dólares. Combina renta fija emergente, posiciones en equity global y gestión activa de cobertura cambiaria.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1.9922,
+      "fecha_valor": "2026-05-19",
+      "fuente_dato": "CAFCI",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-016",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-016.pdf",
+      "link_composicion": "https://cafci.org.ar/composicion/fci-016",
+      "composicion_mock": [
+        {
+          "instrumento": "Bonos emergentes USD",
+          "porcentaje": 40
+        },
+        {
+          "instrumento": "Equity global ETFs",
+          "porcentaje": 35
+        },
+        {
+          "instrumento": "FX Hedges",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "Liquidez",
+          "porcentaje": 10
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1.9456
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1.9504
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1.9521
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1.9489
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1.9467
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1.9509
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1.9647
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1.9587
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1.9619
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1.9546
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1.9461
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1.9496
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1.9519
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1.9394
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1.9301
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1.9321
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1.9214
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1.9141
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1.91
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1.9026
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1.9119
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1.9095
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1.9148
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1.9146
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1.9147
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1.9266
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1.926
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1.9311
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1.9203
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1.9298
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1.9352
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1.9423
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1.9435
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1.9315
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1.9207
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1.9215
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1.9208
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1.9271
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1.9146
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1.9082
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1.9182
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1.9296
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1.9385
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1.9375
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1.9278
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1.935
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1.9297
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1.937
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1.9369
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1.9486
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1.9538
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1.946
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1.9574
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1.9473
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1.9349
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1.9302
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1.9178
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1.9277
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1.936
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1.9459
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1.9504
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1.9546
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1.9499
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1.9384
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1.947
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1.9453
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1.9404
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1.9482
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1.9488
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1.9366
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1.9394
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1.9466
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1.9521
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1.9591
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1.9638
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1.9534
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1.9651
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1.9588
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1.9688
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1.9747
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1.984
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1.9965
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1.9881
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1.9966
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1.9966
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 2.0057
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1.9964
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1.9943
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1.9835
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1.9922
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.44,
+        "semanal": 0.21,
+        "mensual": 2.38,
+        "trimestral": 2.4,
+        "anual": 15,
+        "ytd": 5.47
+      },
+      "aum_millones": 208,
+      "rescate_plazo": "T+2",
+      "comision_administracion": 1.8,
+      "horizonte_inversion": "Mediano plazo (1–3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-017",
+      "nombre": "Delta Renta Fija CER",
+      "sociedad_gerente": "Delta Asset Management SA",
+      "sociedad_depositaria": "Banco ICBC Argentina SA",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "ARS",
+      "objeto_inversion": "Fondo especializado en bonos indexados por CER (inflación). Cubre el poder adquisitivo frente a la inflación argentina con instrumentos soberanos y cuasisoberanos.",
+      "estado": "Suspendido",
+      "valor_cuotaparte": 2134567,
+      "fecha_valor": "2026-04-30",
+      "fuente_dato": "CNV",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-017",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-017.pdf",
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "TX28 (Bono CER 2028)",
+          "porcentaje": 40
+        },
+        {
+          "instrumento": "TX30 (Bono CER 2030)",
+          "porcentaje": 35
+        },
+        {
+          "instrumento": "CUAP (Cuasisoberano CER)",
+          "porcentaje": 20
+        },
+        {
+          "instrumento": "Liquidez ARS",
+          "porcentaje": 5
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-03-02",
+          "valor": 1847879.17
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1843028.74
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1845254.2
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1847462.63
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1853166.3
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1856379.94
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1865326.37
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1876340.19
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1880323.12
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1891827.04
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1905497.32
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1912478.3
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1916671.03
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1921171.71
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1916041.89
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1911042.21
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1908715.18
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1903979.74
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1897111.3
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1890380.68
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1887230.79
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1895169.75
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1888651.99
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1895668.44
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1908183.21
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1917368.36
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1917992.52
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1922814.81
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1924459.8
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1917460.2
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1910705.08
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1905644.3
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1903699.73
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1898091.77
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1896420.11
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1890989.12
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1901466.75
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1914575.45
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1920902.42
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1922407.56
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1926026.19
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1929323.93
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1932897.99
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1932855.92
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1945047.04
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1958425.64
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1971966.39
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1981669.01
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1992400.01
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1992458.14
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1990158.24
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 2001827.34
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 2011140.83
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 2025462.39
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 2033469.1
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 2038062.2
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 2048541.35
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 2054929.7
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 2058359.84
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 2071361.77
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 2081405.84
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 2080639.28
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 2082155.93
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 2087983.63
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 2098747.12
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 2092066.61
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 2098135.61
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 2110417.81
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 2124958.58
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 2116139.5
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 2107340.67
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 2100401.9
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 2114888.51
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 2130297.91
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 2129518.59
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 2123174.74
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 2117196.53
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 2129099.25
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 2134567
+        }
+      ],
+      "rendimientos": {
+        "diario": 0.26,
+        "semanal": 1.63,
+        "mensual": 7.14,
+        "trimestral": null,
+        "anual": 88,
+        "ytd": 27.18
+      },
+      "aum_millones": null,
+      "rescate_plazo": null,
+      "comision_administracion": null,
+      "horizonte_inversion": null,
+      "inversion_minima": null
+    },
+    {
+      "id": "fci-018",
+      "nombre": "IAM Renta Fija Global EUR",
+      "sociedad_gerente": "Itaú Asset Management SA",
+      "sociedad_depositaria": "Banco Itaú Argentina SA",
+      "tipo_fondo": "Renta Fija",
+      "moneda": "EUR",
+      "objeto_inversion": "Bonos soberanos europeos y corporativos denominados en euros. Exposición a curva de tasas europea con gestión de duration flexible.",
+      "estado": "En formación",
+      "valor_cuotaparte": null,
+      "fecha_valor": null,
+      "fuente_dato": "CNV",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-018",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-018.pdf",
+      "link_composicion": null,
+      "composicion_mock": [],
+      "historial_cuotapartes": [],
+      "rendimientos": {
+        "diario": null,
+        "semanal": null,
+        "mensual": null,
+        "trimestral": null,
+        "anual": null,
+        "ytd": null
+      },
+      "aum_millones": null,
+      "rescate_plazo": null,
+      "comision_administracion": null,
+      "horizonte_inversion": null,
+      "inversion_minima": null
+    },
+    {
+      "id": "fci-019",
+      "nombre": "Puente Acciones Latinoamerica",
+      "sociedad_gerente": "Puente Fondos SA",
+      "sociedad_depositaria": "Banco Supervielle SA",
+      "tipo_fondo": "Renta Variable",
+      "moneda": "USD",
+      "objeto_inversion": "Acciones y CEDEARs de empresas latinoamericanas (Brasil, Chile, México, Colombia, Argentina). Diversificación regional en moneda dura.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1.1105,
+      "fecha_valor": "2026-05-12",
+      "fuente_dato": "Manual",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-019",
+      "link_reglamento": null,
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "CEDEAR Petrobras (PBR)",
+          "porcentaje": 18
+        },
+        {
+          "instrumento": "CEDEAR Vale (VALE)",
+          "porcentaje": 15
+        },
+        {
+          "instrumento": "CEDEAR América Móvil (AMX)",
+          "porcentaje": 12
+        },
+        {
+          "instrumento": "CEDEAR Itaú (ITUB)",
+          "porcentaje": 10
+        },
+        {
+          "instrumento": "Otros LATAM",
+          "porcentaje": 45
+        }
+      ],
+      "historial_cuotapartes": [
+        {
+          "fecha": "2026-02-19",
+          "valor": 1.0709
+        },
+        {
+          "fecha": "2026-02-20",
+          "valor": 1.0741
+        },
+        {
+          "fecha": "2026-02-21",
+          "valor": 1.0649
+        },
+        {
+          "fecha": "2026-02-22",
+          "valor": 1.076
+        },
+        {
+          "fecha": "2026-02-23",
+          "valor": 1.0716
+        },
+        {
+          "fecha": "2026-02-24",
+          "valor": 1.0704
+        },
+        {
+          "fecha": "2026-02-25",
+          "valor": 1.0685
+        },
+        {
+          "fecha": "2026-02-26",
+          "valor": 1.0714
+        },
+        {
+          "fecha": "2026-02-27",
+          "valor": 1.0642
+        },
+        {
+          "fecha": "2026-02-28",
+          "valor": 1.0549
+        },
+        {
+          "fecha": "2026-03-01",
+          "valor": 1.056
+        },
+        {
+          "fecha": "2026-03-02",
+          "valor": 1.0533
+        },
+        {
+          "fecha": "2026-03-03",
+          "valor": 1.0491
+        },
+        {
+          "fecha": "2026-03-04",
+          "valor": 1.046
+        },
+        {
+          "fecha": "2026-03-05",
+          "valor": 1.0375
+        },
+        {
+          "fecha": "2026-03-06",
+          "valor": 1.0437
+        },
+        {
+          "fecha": "2026-03-07",
+          "valor": 1.0408
+        },
+        {
+          "fecha": "2026-03-08",
+          "valor": 1.0498
+        },
+        {
+          "fecha": "2026-03-09",
+          "valor": 1.0597
+        },
+        {
+          "fecha": "2026-03-10",
+          "valor": 1.0535
+        },
+        {
+          "fecha": "2026-03-11",
+          "valor": 1.0645
+        },
+        {
+          "fecha": "2026-03-12",
+          "valor": 1.0558
+        },
+        {
+          "fecha": "2026-03-13",
+          "valor": 1.0597
+        },
+        {
+          "fecha": "2026-03-14",
+          "valor": 1.0647
+        },
+        {
+          "fecha": "2026-03-15",
+          "valor": 1.07
+        },
+        {
+          "fecha": "2026-03-16",
+          "valor": 1.0721
+        },
+        {
+          "fecha": "2026-03-17",
+          "valor": 1.0729
+        },
+        {
+          "fecha": "2026-03-18",
+          "valor": 1.0722
+        },
+        {
+          "fecha": "2026-03-19",
+          "valor": 1.0681
+        },
+        {
+          "fecha": "2026-03-20",
+          "valor": 1.069
+        },
+        {
+          "fecha": "2026-03-21",
+          "valor": 1.0774
+        },
+        {
+          "fecha": "2026-03-22",
+          "valor": 1.0704
+        },
+        {
+          "fecha": "2026-03-23",
+          "valor": 1.0612
+        },
+        {
+          "fecha": "2026-03-24",
+          "valor": 1.0535
+        },
+        {
+          "fecha": "2026-03-25",
+          "valor": 1.0622
+        },
+        {
+          "fecha": "2026-03-26",
+          "valor": 1.0677
+        },
+        {
+          "fecha": "2026-03-27",
+          "valor": 1.0655
+        },
+        {
+          "fecha": "2026-03-28",
+          "valor": 1.0716
+        },
+        {
+          "fecha": "2026-03-29",
+          "valor": 1.0762
+        },
+        {
+          "fecha": "2026-03-30",
+          "valor": 1.0842
+        },
+        {
+          "fecha": "2026-03-31",
+          "valor": 1.0841
+        },
+        {
+          "fecha": "2026-04-01",
+          "valor": 1.082
+        },
+        {
+          "fecha": "2026-04-02",
+          "valor": 1.0899
+        },
+        {
+          "fecha": "2026-04-03",
+          "valor": 1.101
+        },
+        {
+          "fecha": "2026-04-04",
+          "valor": 1.092
+        },
+        {
+          "fecha": "2026-04-05",
+          "valor": 1.0893
+        },
+        {
+          "fecha": "2026-04-06",
+          "valor": 1.0971
+        },
+        {
+          "fecha": "2026-04-07",
+          "valor": 1.1088
+        },
+        {
+          "fecha": "2026-04-08",
+          "valor": 1.118
+        },
+        {
+          "fecha": "2026-04-09",
+          "valor": 1.1086
+        },
+        {
+          "fecha": "2026-04-10",
+          "valor": 1.1198
+        },
+        {
+          "fecha": "2026-04-11",
+          "valor": 1.1121
+        },
+        {
+          "fecha": "2026-04-12",
+          "valor": 1.1179
+        },
+        {
+          "fecha": "2026-04-13",
+          "valor": 1.1142
+        },
+        {
+          "fecha": "2026-04-14",
+          "valor": 1.1032
+        },
+        {
+          "fecha": "2026-04-15",
+          "valor": 1.0927
+        },
+        {
+          "fecha": "2026-04-16",
+          "valor": 1.0996
+        },
+        {
+          "fecha": "2026-04-17",
+          "valor": 1.0909
+        },
+        {
+          "fecha": "2026-04-18",
+          "valor": 1.0971
+        },
+        {
+          "fecha": "2026-04-19",
+          "valor": 1.1036
+        },
+        {
+          "fecha": "2026-04-20",
+          "valor": 1.1114
+        },
+        {
+          "fecha": "2026-04-21",
+          "valor": 1.1127
+        },
+        {
+          "fecha": "2026-04-22",
+          "valor": 1.1239
+        },
+        {
+          "fecha": "2026-04-23",
+          "valor": 1.1153
+        },
+        {
+          "fecha": "2026-04-24",
+          "valor": 1.1101
+        },
+        {
+          "fecha": "2026-04-25",
+          "valor": 1.1043
+        },
+        {
+          "fecha": "2026-04-26",
+          "valor": 1.0939
+        },
+        {
+          "fecha": "2026-04-27",
+          "valor": 1.1024
+        },
+        {
+          "fecha": "2026-04-28",
+          "valor": 1.1118
+        },
+        {
+          "fecha": "2026-04-29",
+          "valor": 1.1107
+        },
+        {
+          "fecha": "2026-04-30",
+          "valor": 1.1113
+        },
+        {
+          "fecha": "2026-05-01",
+          "valor": 1.1193
+        },
+        {
+          "fecha": "2026-05-02",
+          "valor": 1.1229
+        },
+        {
+          "fecha": "2026-05-03",
+          "valor": 1.1308
+        },
+        {
+          "fecha": "2026-05-04",
+          "valor": 1.1309
+        },
+        {
+          "fecha": "2026-05-05",
+          "valor": 1.1233
+        },
+        {
+          "fecha": "2026-05-06",
+          "valor": 1.1231
+        },
+        {
+          "fecha": "2026-05-07",
+          "valor": 1.1188
+        },
+        {
+          "fecha": "2026-05-08",
+          "valor": 1.1282
+        },
+        {
+          "fecha": "2026-05-09",
+          "valor": 1.1267
+        },
+        {
+          "fecha": "2026-05-10",
+          "valor": 1.1252
+        },
+        {
+          "fecha": "2026-05-11",
+          "valor": 1.118
+        },
+        {
+          "fecha": "2026-05-12",
+          "valor": 1.1284
+        },
+        {
+          "fecha": "2026-05-13",
+          "valor": 1.1225
+        },
+        {
+          "fecha": "2026-05-14",
+          "valor": 1.1341
+        },
+        {
+          "fecha": "2026-05-15",
+          "valor": 1.1316
+        },
+        {
+          "fecha": "2026-05-16",
+          "valor": 1.1208
+        },
+        {
+          "fecha": "2026-05-17",
+          "valor": 1.1231
+        },
+        {
+          "fecha": "2026-05-18",
+          "valor": 1.1188
+        },
+        {
+          "fecha": "2026-05-19",
+          "valor": 1.1105
+        }
+      ],
+      "rendimientos": {
+        "diario": -0.74,
+        "semanal": -1.59,
+        "mensual": 0.63,
+        "trimestral": 3.7,
+        "anual": 22,
+        "ytd": 7.87
+      },
+      "aum_millones": 53,
+      "rescate_plazo": "T+72hs",
+      "comision_administracion": 2.8,
+      "horizonte_inversion": "Largo plazo (> 3 años)",
+      "inversion_minima": 100
+    },
+    {
+      "id": "fci-020",
+      "nombre": "Arpenta Fondo Cerrado Agroindustrial",
+      "sociedad_gerente": "Arpenta Fondos SA",
+      "sociedad_depositaria": "Banco de la Provincia de Buenos Aires",
+      "tipo_fondo": "Cerrado",
+      "moneda": "USD",
+      "objeto_inversion": "Fondo cerrado con participación en fideicomisos productivos del sector agroindustrial: soja, maíz, trigo. Flujos de caja en dólares con plazo de 5 años.",
+      "estado": "Activo",
+      "valor_cuotaparte": 1,
+      "fecha_valor": "2026-01-15",
+      "fuente_dato": "No disponible",
+      "link_cnv": "https://www.cnv.gov.ar/fondos/fci-020",
+      "link_reglamento": "https://www.cnv.gov.ar/reglamentos/fci-020.pdf",
+      "link_composicion": null,
+      "composicion_mock": [
+        {
+          "instrumento": "Fideicomiso soja campaña 25/26",
+          "porcentaje": 50
+        },
+        {
+          "instrumento": "Fideicomiso maíz campaña 25/26",
+          "porcentaje": 30
+        },
+        {
+          "instrumento": "Fideicomiso trigo campaña 25/26",
+          "porcentaje": 20
+        }
+      ],
+      "historial_cuotapartes": [],
+      "rendimientos": {
+        "diario": null,
+        "semanal": null,
+        "mensual": null,
+        "trimestral": null,
+        "anual": null,
+        "ytd": null
+      },
+      "aum_millones": null,
+      "rescate_plazo": null,
+      "comision_administracion": null,
+      "horizonte_inversion": null,
+      "inversion_minima": null
+    }
+  ]
+}
