@@ -1,0 +1,48 @@
+name: Actualizar datos de fondos
+
+on:
+  schedule:
+    # Todos los días a las 11:00 UTC (08:00 Argentina)
+    - cron: "0 11 * * *"
+  workflow_dispatch: # Permite ejecutar manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar planilla CAFCI
+        run: python3 scripts/ingest-cafci.py
+
+      - name: Descargar composiciones de fondos
+        run: node scripts/fetch-composiciones.mjs
+        env:
+          CONCURRENCY: "8"
+          DELAY_MS: "150"
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/cafci-planilla.json src/data/composiciones-reales.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios, nada que commitear."
+          else
+            FECHA=$(date -u +"%Y-%m-%d")
+            git commit -m "datos: actualización automática ${FECHA}"
+            git push
+          fi
