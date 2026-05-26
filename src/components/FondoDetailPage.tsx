@@ -1,6 +1,13 @@
-import { useState } from "react";
-import { ArrowLeft, ExternalLink, FileText, PieChart as PieChartIcon } from "lucide-react";
-import type { Fondo } from "../types/fondo";
+import { useState, useEffect } from "react";
+import {
+  ArrowLeft,
+  ExternalLink,
+  FileText,
+  PieChart as PieChartIcon,
+  TrendingUp,
+  Loader2,
+} from "lucide-react";
+import type { Fondo, Rendimientos } from "../types/fondo";
 import { Badge } from "./ui/badge";
 import {
   calcularEstadoDato,
@@ -9,8 +16,13 @@ import {
   monedaBadgeClass,
   formatearMoneda,
   formatearFecha,
+  formatearRendimiento,
+  rendimientoColorClass,
+  formatearAUM,
   cn,
 } from "../lib/utils";
+import { fetchHistoricoFondo, TIPO_A_CATEGORIA } from "../services/argentinaDatosService";
+import { calcularRendimientosDesdeHistorico } from "../services/historicoService";
 
 // ─── Paleta de colores (por rank del activo) ──────────────────────────────────
 
@@ -52,11 +64,13 @@ function polarToCartesian(cx: number, cy: number, r: number, deg: number) {
 }
 
 function describeArc(
-  cx: number, cy: number,
-  outerR: number, innerR: number,
-  startDeg: number, sweepDeg: number
+  cx: number,
+  cy: number,
+  outerR: number,
+  innerR: number,
+  startDeg: number,
+  sweepDeg: number
 ): string {
-  // Clamp full-circle to avoid degenerate SVG arc
   const effectiveSweep = Math.min(sweepDeg, 359.99);
   const endDeg = startDeg + effectiveSweep;
   const largeArc = effectiveSweep > 180 ? 1 : 0;
@@ -75,7 +89,15 @@ function describeArc(
 
 // ─── Sub-componentes de layout ────────────────────────────────────────────────
 
-function LinkItem({ href, label, icon }: { href: string | null; label: string; icon: React.ReactNode }) {
+function LinkItem({
+  href,
+  label,
+  icon,
+}: {
+  href: string | null;
+  label: string;
+  icon: React.ReactNode;
+}) {
   if (!href) {
     return (
       <div className="flex items-center justify-between py-2.5">
@@ -107,7 +129,90 @@ function MetaItem({ label, value }: { label: string; value: React.ReactNode }) {
       <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
         {label}
       </span>
-      <span className="text-sm text-foreground">{value}</span>
+      <div className="text-sm text-foreground">{value}</div>
+    </div>
+  );
+}
+
+// ─── Rendimientos ─────────────────────────────────────────────────────────────
+
+// Períodos sin fuente en la planilla CAFCI — requieren snapshots propios.
+// Se muestran con indicador visual distinto para no confundirlos con
+// períodos con dato disponible (valor null por fondo nuevo) vs
+// períodos que directamente no tiene fuente.
+const PERIODOS_SIN_FUENTE_CAFCI = new Set(["Semanal", "Trimestral"]);
+
+function RendimientosGrid({
+  rendimientos,
+  loading,
+  fuenteCAFCI,
+}: {
+  rendimientos: Rendimientos | null;
+  loading: boolean;
+  /** true cuando los rendimientos provienen de la planilla CAFCI (semanal/trimestral no disponibles) */
+  fuenteCAFCI: boolean;
+}) {
+  const tna = rendimientos?.diario != null
+    ? +(rendimientos.diario * 365).toFixed(2)
+    : null;
+
+  const periodos = [
+    { label: "TNA",        valor: tna,                       destacado: true  },
+    { label: "Diario",     valor: rendimientos?.diario,      destacado: false },
+    { label: "Semanal",    valor: rendimientos?.semanal,     destacado: false },
+    { label: "Mensual",    valor: rendimientos?.mensual,     destacado: false },
+    { label: "Trimestral", valor: rendimientos?.trimestral,  destacado: false },
+    { label: "YTD",        valor: rendimientos?.ytd,         destacado: false },
+    { label: "Anual",      valor: rendimientos?.anual,       destacado: false },
+  ];
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center gap-2 py-3 text-sm text-muted-foreground">
+        <Loader2 className="h-4 w-4 animate-spin" />
+        Calculando rendimientos...
+      </div>
+    );
+  }
+
+  return (
+    <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
+      {periodos.map(({ label, valor, destacado }) => {
+        // Semanal y trimestral no existen en la planilla CAFCI:
+        // el dato se acumula con snapshots propios (public/historial/).
+        const sinFuente = fuenteCAFCI && valor == null && PERIODOS_SIN_FUENTE_CAFCI.has(label);
+
+        return (
+          <div
+            key={label}
+            className={cn(
+              "flex flex-col items-center gap-1 rounded-lg border px-2 py-2.5",
+              destacado
+                ? "bg-primary/8 border-primary/20"
+                : sinFuente
+                  ? "bg-muted/30 border-dashed border-border/40 opacity-60"
+                  : "bg-muted/50 border-border/50"
+            )}
+          >
+            <span className={cn(
+              "text-[10px] font-medium uppercase tracking-wide leading-none",
+              destacado ? "text-primary/70" : "text-muted-foreground"
+            )}>
+              {label}
+            </span>
+            <span
+              className={cn(
+                "tabular-nums leading-none mt-0.5",
+                destacado ? "text-base font-extrabold" : "text-sm font-bold",
+                sinFuente ? "text-muted-foreground/50" : rendimientoColorClass(valor)
+              )}
+              title={sinFuente ? "No disponible en planilla CAFCI. Se calculará cuando haya suficientes snapshots propios." : undefined}
+            >
+              {sinFuente ? "s/d" : formatearRendimiento(valor)}
+            </span>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -136,7 +241,7 @@ function VistaBarras({ items }: { items: ItemConColor[] }) {
             />
           </div>
           <span
-            className="w-12 text-right text-sm font-semibold font-mono shrink-0"
+            className="w-12 text-right text-sm font-semibold tabular-nums shrink-0"
             style={{ color: item.color }}
           >
             {item.porcentaje.toFixed(1)}%
@@ -151,7 +256,10 @@ function VistaBarras({ items }: { items: ItemConColor[] }) {
 
 function VistaTorta({ items }: { items: ItemConColor[] }) {
   const total = items.reduce((s, i) => s + i.porcentaje, 0) || 1;
-  const cx = 100, cy = 100, outerR = 92, innerR = 41;
+  const cx = 100,
+    cy = 100,
+    outerR = 92,
+    innerR = 41;
 
   let currentAngle = 0;
   const segments = items.map((item) => {
@@ -176,29 +284,32 @@ function VistaTorta({ items }: { items: ItemConColor[] }) {
             />
           ))}
           <text
-            x="100" y="89"
+            x="100"
+            y="89"
             textAnchor="middle"
             fontSize="11"
-            fill="#6B7280"
+            className="fill-muted-foreground"
             fontFamily="ui-sans-serif, system-ui, sans-serif"
           >
             Total
           </text>
           <text
-            x="100" y="113"
+            x="100"
+            y="113"
             textAnchor="middle"
             fontSize="28"
             fontWeight="700"
-            fill="#111827"
+            className="fill-foreground"
             fontFamily="ui-sans-serif, system-ui, sans-serif"
           >
             {items.length}
           </text>
           <text
-            x="100" y="129"
+            x="100"
+            y="129"
             textAnchor="middle"
             fontSize="11"
-            fill="#6B7280"
+            className="fill-muted-foreground"
             fontFamily="ui-sans-serif, system-ui, sans-serif"
           >
             activos
@@ -221,7 +332,7 @@ function VistaTorta({ items }: { items: ItemConColor[] }) {
               {item.instrumento}
             </span>
             <span
-              className="shrink-0 text-sm font-semibold font-mono"
+              className="shrink-0 text-sm font-semibold tabular-nums"
               style={{ color: item.color }}
             >
               {item.porcentaje.toFixed(1)}%
@@ -261,8 +372,13 @@ function VistaTabla({ items }: { items: ItemConColor[] }) {
             key={idx}
             className="border-b border-border/40 hover:bg-muted/40 transition-colors"
           >
-            <td className="py-2 text-muted-foreground font-mono text-xs pr-3">{idx + 1}</td>
-            <td className="py-2 text-foreground truncate max-w-[1px]" title={item.instrumento}>
+            <td className="py-2 text-muted-foreground tabular-nums text-xs pr-3">
+              {idx + 1}
+            </td>
+            <td
+              className="py-2 text-foreground truncate max-w-[1px]"
+              title={item.instrumento}
+            >
               {item.instrumento}
             </td>
             <td className="py-2">
@@ -277,7 +393,7 @@ function VistaTabla({ items }: { items: ItemConColor[] }) {
               </div>
             </td>
             <td
-              className="py-2 text-right font-semibold font-mono"
+              className="py-2 text-right font-semibold tabular-nums"
               style={{ color: item.color }}
             >
               {item.porcentaje.toFixed(1)}%
@@ -299,8 +415,59 @@ interface FondoDetailPageProps {
 export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
   const [vista, setVista] = useState<Vista>("barras");
 
+  // Determine up-front whether we'll need to fetch historical data.
+  // fetchHistoricoFondo is a no-op until ArgentinaDatos exposes a full-history
+  // endpoint; set needsFetch = false to avoid showing a misleading spinner.
+  const categoriaFondo = TIPO_A_CATEGORIA[fondo.tipo_fondo];
+  const tieneHistorialLocal =
+    (fondo.historial_cuotapartes?.length ?? 0) >= 2;
+  const needsFetch = false && !fondo.rendimientos && !tieneHistorialLocal && !!categoriaFondo;
+
+  const [rendimientos, setRendimientos] = useState<Rendimientos | null>(
+    fondo.rendimientos ?? null
+  );
+  const [rendimientosLoading, setRendimientosLoading] = useState(needsFetch);
+
   const estadoDato = calcularEstadoDato(fondo.fecha_valor);
   const { nombreCorto, clase } = extraerClase(fondo.nombre);
+
+  // Lazy-load rendimientos from ArgentinaDatos historical data when not pre-computed
+  useEffect(() => {
+    if (fondo.rendimientos) {
+      setRendimientos(fondo.rendimientos);
+      return;
+    }
+
+    if (tieneHistorialLocal) {
+      const calc = calcularRendimientosDesdeHistorico(
+        fondo.id,
+        fondo.historial_cuotapartes!
+      );
+      if (calc) {
+        setRendimientos(calc);
+        return;
+      }
+    }
+
+    if (!categoriaFondo) return;
+
+    setRendimientosLoading(true);
+    fetchHistoricoFondo(fondo.nombre, categoriaFondo)
+      .then((historial) => {
+        if (historial.length >= 2) {
+          setRendimientos(calcularRendimientosDesdeHistorico(fondo.id, historial));
+        }
+      })
+      .catch(() => {})
+      .finally(() => setRendimientosLoading(false));
+  }, [
+    fondo.id,
+    fondo.nombre,
+    fondo.rendimientos,
+    fondo.historial_cuotapartes,
+    categoriaFondo,
+    tieneHistorialLocal,
+  ]);
 
   const items: ItemConColor[] = (fondo.composicion_mock ?? []).map((item, idx) => ({
     instrumento: item.instrumento,
@@ -328,13 +495,11 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
           Volver
         </button>
         <div className="h-4 w-px bg-border shrink-0" />
-        {/* Breadcrumb */}
         <div className="flex items-center gap-1.5 text-sm min-w-0 flex-1">
           <span className="text-muted-foreground shrink-0">Fondos CNV</span>
           <span className="text-muted-foreground shrink-0">›</span>
           <span className="text-foreground truncate font-medium">{fondo.nombre}</span>
         </div>
-        {/* Badges */}
         <div className="flex items-center gap-1.5 shrink-0">
           <Badge className={monedaBadgeClass(fondo.moneda)}>{fondo.moneda}</Badge>
           <Badge className={estadoFondoBadgeClass(fondo.estado)}>{fondo.estado}</Badge>
@@ -347,7 +512,7 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
         className="flex-1 overflow-hidden"
         style={{
           display: "grid",
-          gridTemplateColumns: "300px 1fr",
+          gridTemplateColumns: "280px 1fr",
           gap: "12px",
           padding: "12px",
         }}
@@ -368,10 +533,10 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
             </div>
           </div>
 
-          {/* Card 2 — Métricas clave */}
+          {/* Card 2 — VCP + datos operativos */}
           <div className="rounded-lg border border-border bg-card p-4 shrink-0">
-            <div className="mb-3">
-              <span className="text-xl font-bold font-mono text-primary">
+            <div className="mb-4">
+              <span className="text-xl font-bold tabular-nums text-primary">
                 {formatearMoneda(fondo.valor_cuotaparte, fondo.moneda)}
               </span>
               <p className="text-xs text-muted-foreground mt-0.5">
@@ -387,16 +552,58 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
                   </Badge>
                 }
               />
-              <MetaItem label="Tipo" value={fondo.tipo_fondo} />
               <MetaItem
-                label="Soc. Depositaria"
+                label="Patrimonio"
+                value={
+                  <span className="text-xs">
+                    {formatearAUM(fondo.aum_millones, fondo.moneda)}
+                  </span>
+                }
+              />
+              <MetaItem
+                label="Rescate"
+                value={<span className="text-xs">{fondo.rescate_plazo ?? "—"}</span>}
+              />
+              <MetaItem
+                label="Comisión adm."
+                value={
+                  <span className="text-xs">
+                    {fondo.comision_administracion != null
+                      ? `${fondo.comision_administracion}%`
+                      : "—"}
+                  </span>
+                }
+              />
+              <MetaItem
+                label="Depositaria"
                 value={
                   <span className="text-xs leading-tight">
                     {fondo.sociedad_depositaria || "—"}
                   </span>
                 }
               />
-              <MetaItem label="Fuente" value={fondo.fuente_dato} />
+              <MetaItem
+                label="Horizonte"
+                value={
+                  <span className="text-xs capitalize">
+                    {fondo.horizonte_inversion ?? "—"}
+                  </span>
+                }
+              />
+              {fondo.inversion_minima != null && fondo.inversion_minima > 0 && (
+                <MetaItem
+                  label="Inv. mínima"
+                  value={
+                    <span className="text-xs">
+                      {formatearMoneda(fondo.inversion_minima, fondo.moneda)}
+                    </span>
+                  }
+                />
+              )}
+              <MetaItem
+                label="Fuente"
+                value={<span className="text-xs">{fondo.fuente_dato}</span>}
+              />
             </div>
           </div>
 
@@ -429,13 +636,30 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
         {/* ── Panel derecho ──────────────────────────────────────────────────── */}
         <div className="flex flex-col gap-2.5 min-h-0 overflow-hidden">
 
-          {/* Header sección */}
+          {/* Rendimientos */}
+          <div className="rounded-lg border border-border bg-card p-4 shrink-0">
+            <div className="flex items-center gap-2 mb-3">
+              <TrendingUp className="h-4 w-4 text-primary" />
+              <h2 className="text-sm font-bold text-foreground">Rendimientos</h2>
+              {!rendimientosLoading && !rendimientos && (
+                <span className="ml-auto text-xs text-muted-foreground italic">
+                  Sin datos históricos disponibles
+                </span>
+              )}
+            </div>
+            <RendimientosGrid
+              rendimientos={rendimientos}
+              loading={rendimientosLoading}
+              fuenteCAFCI={fondo.fuente?.rendimientos === "CAFCI"}
+            />
+          </div>
+
+          {/* Composición — header */}
           <div className="flex items-center justify-between shrink-0">
             <div>
               <h2 className="text-sm font-bold text-foreground">Composición de cartera</h2>
               <p className="text-xs text-muted-foreground mt-0.5">{composicionLabel}</p>
             </div>
-            {/* Toggle vista */}
             {tieneComposicion && (
               <div className="flex items-center rounded-lg bg-muted p-0.5 gap-0.5">
                 {(["barras", "torta", "tabla"] as Vista[]).map((v) => (
@@ -456,7 +680,7 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
             )}
           </div>
 
-          {/* Body composición */}
+          {/* Composición — body */}
           <div className="rounded-lg border border-border bg-card p-5 flex-1 overflow-hidden flex flex-col min-h-0">
             {!tieneComposicion ? (
               <div className="flex-1 flex flex-col items-center justify-center gap-2 text-center">

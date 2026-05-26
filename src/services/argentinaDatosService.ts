@@ -36,8 +36,8 @@
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
-import type { Fondo, TipoFondo } from "../types/fondo";
-import { getPlanillaFondo, formatearPlazo, getComposicion } from "./cafciPlanillaService";
+import type { Fondo, TipoFondo, HistorialCuotaparte } from "../types/fondo";
+import { getPlanillaFondo, formatearPlazo, getComposicion, getRendimientos } from "./cafciPlanillaService";
 
 const BASE_URL = "https://api.argentinadatos.com/v1/finanzas/fci";
 
@@ -72,6 +72,14 @@ const CATEGORIA_A_TIPO: Record<Categoria, TipoFondo> = {
   rentaFija:     "Renta Fija",
   rentaMixta:    "Renta Mixta",
   rentaVariable: "Renta Variable",
+};
+
+/** Inverse map: tipo_fondo → categoria endpoint. Only covers ArgentinaDatos-backed types. */
+export const TIPO_A_CATEGORIA: Partial<Record<TipoFondo, Categoria>> = {
+  "Money Market":   "mercadoDinero",
+  "Renta Fija":     "rentaFija",
+  "Renta Mixta":    "rentaMixta",
+  "Renta Variable": "rentaVariable",
 };
 
 // ─── Fetch ────────────────────────────────────────────────────────────────────
@@ -129,12 +137,17 @@ export async function getFondosArgentinaDatos(): Promise<ArgentinaDatosItem[]> {
  *   ❌ rendimientos, historial (requieren snapshots propios)
  */
 export function mapArgentinaDatosToFondo(item: ArgentinaDatosItem): Fondo {
-  // Enriquecer con datos estructurales de la planilla CAFCI
+  // Enriquecer con datos estructurales y de rendimientos de la planilla CAFCI
   const planilla = getPlanillaFondo(item.fondo);
   const slug = slugificar(item.fondo);
   const moneda = (planilla?.moneda as Fondo["moneda"]) ?? "ARS";
   const tipoFondo = CATEGORIA_A_TIPO[item.categoria];
   const composicion = getComposicion(slug, planilla?.tipo_fondo ?? tipoFondo, moneda);
+
+  // Rendimientos desde la planilla CAFCI (diario, mensual, ytd, anual)
+  // semanal y trimestral son null: no están en la planilla, se acumularán
+  // con el sistema de snapshots propio (public/historial/)
+  const rendimientos = getRendimientos(item.fondo) ?? undefined;
 
   return {
     id: slug,
@@ -161,6 +174,7 @@ export function mapArgentinaDatosToFondo(item: ArgentinaDatosItem): Fondo {
         ? +(item.patrimonio / 1_000_000).toFixed(2)
         : null,
     horizonte_inversion: item.horizonte,
+    rendimientos,
     // Datos operativos de la planilla
     rescate_plazo: planilla ? formatearPlazo(planilla.plazo_liquidacion) : null,
     comision_administracion: planilla?.honorarios_adm_sg ?? null,
@@ -169,7 +183,7 @@ export function mapArgentinaDatosToFondo(item: ArgentinaDatosItem): Fondo {
       cuotaparte: "CAFCI",
       composicion: "no_disponible",
       patrimonio: item.patrimonio != null ? "CAFCI" : "no_disponible",
-      rendimientos: "no_disponible",
+      rendimientos: rendimientos != null ? "CAFCI" : "no_disponible",
     },
   };
 }
@@ -229,4 +243,33 @@ export function buildLookupMap(
   }
 
   return mapa;
+}
+
+/**
+ * Fetches the full historical VCP series for a specific fund.
+ * Calls the category endpoint without /ultimo, filters by exact fund name.
+ * Used for lazy-loading rendimientos in the detail view.
+ *
+ * Note: as of 2026-05, ArgentinaDatos only exposes /ultimo (latest value) for
+ * each category. The full-history endpoint is not available — this function
+ * returns [] until a historical endpoint is added or the snapshot system
+ * (public/historial/) accumulates enough data.
+ */
+export async function fetchHistoricoFondo(
+  nombre: string,
+  categoria: Categoria
+): Promise<HistorialCuotaparte[]> {
+  const res = await fetch(`${BASE_URL}/${categoria}`, {
+    signal: AbortSignal.timeout(8_000),
+  });
+  if (!res.ok) return []; // endpoint doesn't exist yet — fail fast
+
+  const contentType = res.headers.get("content-type") ?? "";
+  if (!contentType.includes("application/json")) return [];
+
+  const raw = await res.json() as Omit<ArgentinaDatosItem, "categoria">[];
+  return raw
+    .filter((item) => item.fondo === nombre && item.vcp != null && item.fecha != null)
+    .map((item) => ({ fecha: item.fecha!, valor: item.vcp! }))
+    .sort((a, b) => a.fecha.localeCompare(b.fecha));
 }

@@ -3,7 +3,8 @@
 scripts/ingest-cafci.py
 
 Descarga la Planilla Diaria de CAFCI (XLSX público) y genera
-src/data/cafci-planilla.json con los datos estructurales de cada fondo.
+src/data/cafci-planilla.json con los datos estructurales y de rendimientos
+de cada fondo.
 
 Uso:
     python3 scripts/ingest-cafci.py
@@ -13,11 +14,27 @@ Fuente:
     Actualizado diariamente. CORS abierto. Sin autenticación.
 
 Qué datos provee:
-    - sociedad_gerente, sociedad_depositaria
-    - codigo_cnv, codigo_cafci
-    - tipo_fondo, moneda, horizonte
-    - comision_ingreso, honorarios_adm_sg, comision_rescate
-    - plazo_liquidacion, minimo_inversion
+    Estructurales:
+      - sociedad_gerente, sociedad_depositaria
+      - codigo_cnv, codigo_cafci
+      - tipo_fondo, moneda, horizonte
+      - comision_ingreso, honorarios_adm_sg, comision_rescate
+      - plazo_liquidacion, minimo_inversion
+
+    Rendimientos (pre-calculados por CAFCI):
+      - rendimiento_diario:  variación % vs el día hábil anterior (col H)
+      - rendimiento_mensual: rend. desde el último fin de mes (col J)
+                             ⚠ NO son 30 días exactos — es desde el 31/mes_anterior
+      - rendimiento_ytd:     rend. desde el 31/12 del año anterior (col K)
+      - rendimiento_anual:   rend. desde ~12 meses calendario atrás (col L)
+                             ⚠ No son 365 días exactos — es desde fin del mismo mes del año anterior
+
+    Fechas de referencia (del encabezado del XLSX):
+      - rend_ref_mensual, rend_ref_ytd, rend_ref_anual (YYYY-MM-DD)
+
+    Períodos NO disponibles en la planilla:
+      - semanal (7 días): requiere snapshots propios de ≥7 días (public/historial/)
+      - trimestral (90 días): requiere snapshots propios de ≥90 días
 """
 
 import io
@@ -63,25 +80,34 @@ HORIZONTE_MAP = {
 }
 
 # ─── Índices de columnas en la planilla (fila de datos, base 0) ──────────────
-# Row 4 (índice 3) contiene los headers; los datos empiezan en la fila 7.
+# Las letras corresponden a las columnas del XLSX (A=0, B=1, ...).
+# Row 8 contiene los headers de grupo; row 9 los sub-headers con fechas.
+# Los datos de fondo empiezan en row 12 (después de secciones de tipo).
 
-COL_NOMBRE         = 0
-COL_MONEDA_DATO    = 1   # "ARS" / "USD" tal como aparece en cada fila
-COL_HORIZONTE_DATO = 3   # "Cor", "Med", "Lar", "Flex", etc.
-COL_FECHA          = 4
-COL_VCP_ACTUAL     = 5   # Valor cuotaparte actual
-COL_DEPOSITARIA    = 17
-COL_CODIGO_CNV     = 18
-COL_CALIFICACION   = 19
-COL_CODIGO_CAFCI   = 20
-COL_GERENTE        = 23
-COL_COM_INGRESO    = 29
-COL_HON_ADM_SG     = 30
-COL_HON_ADM_SD     = 31
-COL_COM_RESCATE    = 33
-COL_MONEDA_FONDO   = 36
-COL_PLAZO_LIQ      = 37
-COL_MIN_INVERSION  = 43
+COL_NOMBRE         = 0   # A — Nombre del fondo
+COL_MONEDA_DATO    = 1   # B — "ARS" / "USD" tal como aparece en cada fila
+COL_HORIZONTE_DATO = 3   # D — "Cor", "Med", "Lar", "Flex", etc.
+COL_FECHA          = 4   # E — Fecha del VCP actual
+COL_VCP_ACTUAL     = 5   # F — Valor cuotaparte actual
+
+# Rendimientos pre-calculados por CAFCI (col H, J, K, L)
+COL_VARIACION_DIARIA = 7   # H — Variac. % vs día hábil anterior
+COL_REND_MENSUAL     = 9   # J — Rend. desde último fin de mes (fecha en row 9)
+COL_REND_YTD         = 10  # K — Rend. YTD desde 31/12 año anterior (fecha en row 9)
+COL_REND_ANUAL       = 11  # L — Rend. ~12 meses calendario (fecha en row 9)
+
+COL_DEPOSITARIA    = 17  # R
+COL_CODIGO_CNV     = 18  # S
+COL_CALIFICACION   = 19  # T
+COL_CODIGO_CAFCI   = 20  # U
+COL_GERENTE        = 23  # X
+COL_COM_INGRESO    = 29  # AD
+COL_HON_ADM_SG     = 30  # AE
+COL_HON_ADM_SD     = 31  # AF
+COL_COM_RESCATE    = 33  # AH
+COL_MONEDA_FONDO   = 36  # AK
+COL_PLAZO_LIQ      = 37  # AL
+COL_MIN_INVERSION  = 43  # AR
 
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -136,6 +162,37 @@ def parse_row(row, ns: dict) -> list[str]:
     return [get_cell_value(c, ns) for c in row.findall("ns:c", ns)]
 
 
+def parse_date_dmy(s: str):
+    """
+    Convierte 'DD/MM/YY' o 'DD/MM/YYYY' a 'YYYY-MM-DD'.
+    Retorna None si el formato no es reconocible.
+    """
+    if not s:
+        return None
+    parts = s.replace("-", "/").split("/")
+    if len(parts) != 3:
+        return None
+    d, m, y = parts
+    if len(y) == 2:
+        y = "20" + y
+    try:
+        return f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
+    except ValueError:
+        return None
+
+
+def is_rendimientos_subheader(cells: list[str]) -> bool:
+    """
+    Row 9 del XLSX: sub-header con "Moneda" en col B y las fechas de referencia
+    de rendimientos en cols J, K, L. Usamos esta fila para capturar las fechas base.
+    """
+    return (
+        len(cells) > 9
+        and cells[COL_MONEDA_DATO].strip() == "Moneda"
+        and cells[COL_VCP_ACTUAL].strip() == "Actual"
+    )
+
+
 def is_section_header(cells: list[str]) -> bool:
     """
     Una fila es cabecera de sección si tiene contenido sólo en la columna 0
@@ -180,10 +237,22 @@ def parse_planilla(xlsx_bytes: bytes) -> dict:
         rows = ws.findall(".//ns:row", ns)
 
     tipo_actual = None
+    rend_ref_mensual: str | None = None
+    rend_ref_ytd:     str | None = None
+    rend_ref_anual:   str | None = None
 
     for row in rows:
         cells = parse_row(row, ns)
         if not cells:
+            continue
+
+        # Sub-header de rendimientos (row 9): captura las fechas de referencia
+        if is_rendimientos_subheader(cells):
+            while len(cells) <= COL_REND_ANUAL:
+                cells.append("")
+            rend_ref_mensual = parse_date_dmy(cells[COL_REND_MENSUAL].strip())
+            rend_ref_ytd     = parse_date_dmy(cells[COL_REND_YTD].strip())
+            rend_ref_anual   = parse_date_dmy(cells[COL_REND_ANUAL].strip())
             continue
 
         # Cabecera de sección
@@ -213,18 +282,21 @@ def parse_planilla(xlsx_bytes: bytes) -> dict:
         calificacion = cells[COL_CALIFICACION].strip()
         moneda_fondo = cells[COL_MONEDA_FONDO].strip() or moneda_fila
 
-        # Fecha: usar la primera fecha de dato real que encontremos
+        # Fecha del VCP: primera fecha real encontrada → fecha de la planilla
         if fecha_planilla is None and fecha_fila:
-            # Convertir DD/MM/YY o DD/MM/YYYY a YYYY-MM-DD
-            partes = fecha_fila.replace("-", "/").split("/")
-            if len(partes) == 3:
-                d, m, y = partes
-                if len(y) == 2:
-                    y = "20" + y
-                fecha_planilla = f"{y}-{m.zfill(2)}-{d.zfill(2)}"
+            fecha_planilla = parse_date_dmy(fecha_fila)
 
         # VCP de la planilla (para referencia, no para reemplazar ArgentinaDatos)
         vcp_raw = to_float(cells[COL_VCP_ACTUAL])
+
+        # Rendimientos pre-calculados por CAFCI
+        # ⚠ mensual = desde fin de mes anterior (no 30 días exactos)
+        # ⚠ anual   = desde ~12 meses calendario (no 365 días exactos)
+        # ⚠ semanal y trimestral NO están en la planilla
+        rend_diario  = to_float(cells[COL_VARIACION_DIARIA])
+        rend_mensual = to_float(cells[COL_REND_MENSUAL])
+        rend_ytd     = to_float(cells[COL_REND_YTD])
+        rend_anual   = to_float(cells[COL_REND_ANUAL])
 
         # Comisiones
         com_ingreso = to_float(cells[COL_COM_INGRESO])
@@ -245,6 +317,10 @@ def parse_planilla(xlsx_bytes: bytes) -> dict:
             "calificacion": calificacion or None,
             "horizonte": HORIZONTE_MAP.get(horizonte_raw, horizonte_raw) if horizonte_raw else None,
             "vcp_planilla": vcp_raw,
+            "rendimiento_diario":  rend_diario,
+            "rendimiento_mensual": rend_mensual,
+            "rendimiento_ytd":     rend_ytd,
+            "rendimiento_anual":   rend_anual,
             "comision_ingreso": com_ingreso,
             "honorarios_adm_sg": hon_adm_sg,
             "honorarios_adm_sd": hon_adm_sd,
@@ -255,6 +331,12 @@ def parse_planilla(xlsx_bytes: bytes) -> dict:
 
     return {
         "fecha": fecha_planilla,
+        # Fechas de referencia para interpretar los rendimientos
+        # Varían cada día: mensual cambia al inicio de cada mes,
+        # ytd cambia el 1/1, anual se desplaza mes a mes.
+        "rend_ref_mensual": rend_ref_mensual,
+        "rend_ref_ytd":     rend_ref_ytd,
+        "rend_ref_anual":   rend_ref_anual,
         "total": len(fondos),
         "fondos": fondos,
     }

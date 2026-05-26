@@ -102,7 +102,7 @@ export interface FiltrosFondos {
   fuente_dato: string;
 }
 
-export type OrdenamientoCampo = "nombre" | "rendimiento_mensual";
+export type OrdenamientoCampo = "nombre" | "tna";
 export type OrdenamientoDireccion = "asc" | "desc";
 
 export interface Ordenamiento {

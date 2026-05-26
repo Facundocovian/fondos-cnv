@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BarChart3, GitCompare, X, Loader2 } from "lucide-react";
+import { BarChart3, GitCompare, X, Loader2, Moon, Sun } from "lucide-react";
 import { cargarFondos } from "./services/fondosRepository";
 import type { ResultadoCargaFondos } from "./services/fondosRepository";
 import type { FondosMeta } from "./types/fondo";
@@ -55,6 +55,26 @@ function PantallaError({ mensaje }: { mensaje: string }) {
 export default function App() {
   const [estado, setEstado] = useState<EstadoCarga>({ fase: "cargando" });
   const [modalComparacionAbierto, setModalComparacionAbierto] = useState(false);
+  const [showSunrise, setShowSunrise] = useState(false);
+  const [darkMode, setDarkMode] = useState<boolean>(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark") return true;
+    if (saved === "light") return false;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  });
+
+  useEffect(() => {
+    const root = document.documentElement;
+    root.classList.add("no-transitions");
+    root.classList.toggle("dark", darkMode);
+    root.classList.toggle("light", !darkMode);
+    localStorage.setItem("theme", darkMode ? "dark" : "light");
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        root.classList.remove("no-transitions");
+      });
+    });
+  }, [darkMode]);
 
   useEffect(() => {
     cargarFondos()
@@ -108,15 +128,37 @@ export default function App() {
       {/* Top nav — siempre visible independientemente del estado de carga */}
       <header className="sticky top-0 z-10 border-b border-border bg-card/80 backdrop-blur-sm">
         <div className="mx-auto max-w-screen-xl px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded bg-primary/20">
-              <BarChart3 className="h-4 w-4 text-primary" />
-            </div>
-            <div>
-              <span className="text-sm font-semibold text-foreground">Fondos CNV</span>
-              <span className="ml-2 text-xs text-muted-foreground hidden sm:inline">
-                Dashboard de Fondos Comunes de Inversión
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                if (darkMode) setShowSunrise(true);
+                setDarkMode((d) => !d);
+              }}
+              title={darkMode ? "Modo claro" : "Modo noche"}
+              className={`relative flex h-6 w-11 shrink-0 items-center rounded-full transition-colors duration-200 ${
+                darkMode ? "bg-primary" : "bg-border"
+              }`}
+            >
+              <span
+                className={`flex h-5 w-5 items-center justify-center rounded-full bg-white shadow transition-transform duration-200 ${
+                  darkMode ? "translate-x-[22px]" : "translate-x-0.5"
+                }`}
+              >
+                {darkMode
+                  ? <Moon className="h-3 w-3 text-primary" />
+                  : <Sun className="h-3 w-3 text-amber-500" />}
               </span>
+            </button>
+            <div className="flex items-center gap-2.5">
+              <div className="flex h-8 w-8 items-center justify-center rounded bg-primary/20">
+                <BarChart3 className="h-4 w-4 text-primary" />
+              </div>
+              <div>
+                <span className="text-sm font-semibold text-foreground">Fondos CNV</span>
+                <span className="ml-2 text-xs text-muted-foreground hidden sm:inline">
+                  Dashboard de Fondos Comunes de Inversión
+                </span>
+              </div>
             </div>
           </div>
           <div className="flex items-center gap-3 text-xs text-muted-foreground">
@@ -203,6 +245,21 @@ export default function App() {
           onRemove={(fondo) => {
             toggleComparar(fondo);
             if (fondosComparar.length <= 2) setModalComparacionAbierto(false);
+          }}
+        />
+      )}
+
+      {showSunrise && (
+        <div
+          className="sunrise-overlay"
+          onAnimationEnd={() => setShowSunrise(false)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 9999,
+            pointerEvents: "none",
+            background:
+              "radial-gradient(ellipse 140% 80% at 50% 100%, rgba(255,190,40,0.95) 0%, rgba(255,110,20,0.75) 28%, rgba(220,55,10,0.35) 55%, transparent 80%)",
           }}
         />
       )}

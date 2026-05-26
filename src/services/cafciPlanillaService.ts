@@ -8,12 +8,21 @@
  * Actualizar: `python3 scripts/ingest-cafci.py`
  *
  * Provee:
- *   - sociedad_gerente, sociedad_depositaria
- *   - codigo_cnv, codigo_cafci
- *   - tipo_fondo, moneda, horizonte
- *   - comision_ingreso, honorarios_adm_sg, comision_rescate
- *   - plazo_liquidacion, minimo_inversion
- *   - composicionEstimada: allocación típica por tipo de fondo
+ *   Estructurales:
+ *     - sociedad_gerente, sociedad_depositaria
+ *     - codigo_cnv, codigo_cafci
+ *     - tipo_fondo, moneda, horizonte
+ *     - comision_ingreso, honorarios_adm_sg, comision_rescate
+ *     - plazo_liquidacion, minimo_inversion
+ *
+ *   Rendimientos (getRendimientos):
+ *     - diario:  variación % vs día hábil anterior
+ *     - mensual: rend. desde último fin de mes ⚠ no son 30 días exactos
+ *     - ytd:     rend. desde 31/12 año anterior
+ *     - anual:   rend. ~12 meses calendario ⚠ no son 365 días exactos
+ *     - semanal/trimestral: siempre null (no disponibles en planilla CAFCI)
+ *
+ *   Fechas de referencia: rendRefMensual, rendRefYtd, rendRefAnual
  *
  * Nota sobre composición real:
  *   La composición de cartera por fondo está en la API privada de CAFCI
@@ -24,7 +33,7 @@
 
 import planillaRaw from "../data/cafci-planilla.json";
 import composicionesRaw from "../data/composiciones-reales.json";
-import type { ComposicionItem } from "../types/fondo";
+import type { ComposicionItem, Rendimientos } from "../types/fondo";
 
 // ─── Tipos ────────────────────────────────────────────────────────────────────
 
@@ -39,6 +48,11 @@ export interface PlanillaFondo {
   calificacion: string | null;
   horizonte: string | null;
   vcp_planilla: number | null;
+  // Rendimientos pre-calculados por CAFCI (pueden ser null en fondos nuevos)
+  rendimiento_diario:  number | null;
+  rendimiento_mensual: number | null;
+  rendimiento_ytd:     number | null;
+  rendimiento_anual:   number | null;
   comision_ingreso: number | null;
   honorarios_adm_sg: number | null;
   honorarios_adm_sd: number | null;
@@ -49,6 +63,9 @@ export interface PlanillaFondo {
 
 interface PlanillaJson {
   fecha: string;
+  rend_ref_mensual: string | null;
+  rend_ref_ytd:     string | null;
+  rend_ref_anual:   string | null;
   total: number;
   fondos: Record<string, PlanillaFondo>;
 }
@@ -59,6 +76,18 @@ const planilla = planillaRaw as PlanillaJson;
 
 /** Fecha de la planilla descargada (YYYY-MM-DD). */
 export const fechaPlanilla: string = planilla.fecha;
+
+/**
+ * Fechas de referencia para interpretar los rendimientos.
+ * Son las fechas exactas que CAFCI usó como base en la planilla del día.
+ *
+ * - rendRefMensual: último fin de mes (varía al inicio de cada mes)
+ * - rendRefYtd:     31/12 del año anterior (varía el 1/1)
+ * - rendRefAnual:   fin del mismo mes, hace un año (se desplaza mes a mes)
+ */
+export const rendRefMensual: string | null = planilla.rend_ref_mensual ?? null;
+export const rendRefYtd:     string | null = planilla.rend_ref_ytd ?? null;
+export const rendRefAnual:   string | null = planilla.rend_ref_anual ?? null;
 
 /** Mapa nombre_fondo → PlanillaFondo para lookups O(1). */
 const lookupMap: Map<string, PlanillaFondo> = new Map(
@@ -74,6 +103,41 @@ const lookupMap: Map<string, PlanillaFondo> = new Map(
  */
 export function getPlanillaFondo(nombre: string): PlanillaFondo | null {
   return lookupMap.get(nombre) ?? null;
+}
+
+/**
+ * Devuelve los rendimientos de un fondo desde la Planilla Diaria de CAFCI.
+ *
+ * Períodos disponibles:
+ *   diario  — variación % vs el día hábil anterior (calculado por CAFCI)
+ *   mensual — rend. desde el último fin de mes, NO son 30 días exactos
+ *   ytd     — rend. desde el 31/12 del año anterior
+ *   anual   — rend. desde ~12 meses calendario atrás, NO son 365 días exactos
+ *
+ * Siempre null (no disponibles en planilla):
+ *   semanal    — requiere snapshots propios de ≥7 días hábiles
+ *   trimestral — requiere snapshots propios de ≥90 días hábiles
+ *
+ * Retorna null si el fondo no está en la planilla o no tiene ningún rendimiento.
+ */
+export function getRendimientos(nombre: string): Rendimientos | null {
+  const p = lookupMap.get(nombre);
+  if (!p) return null;
+  if (
+    p.rendimiento_diario  == null &&
+    p.rendimiento_mensual == null &&
+    p.rendimiento_ytd     == null &&
+    p.rendimiento_anual   == null
+  ) return null;
+
+  return {
+    diario:     p.rendimiento_diario,
+    semanal:    null,  // no disponible en planilla CAFCI
+    mensual:    p.rendimiento_mensual,
+    trimestral: null,  // no disponible en planilla CAFCI
+    anual:      p.rendimiento_anual,
+    ytd:        p.rendimiento_ytd,
+  };
 }
 
 /**

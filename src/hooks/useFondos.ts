@@ -47,8 +47,10 @@ export function useFondos(fondos: Fondo[]) {
         valA = a.nombre.toLowerCase();
         valB = b.nombre.toLowerCase();
       } else {
-        valA = a.rendimientos?.mensual ?? -Infinity;
-        valB = b.rendimientos?.mensual ?? -Infinity;
+        const tnaA = a.rendimientos?.diario != null ? a.rendimientos.diario * 365 : null;
+        const tnaB = b.rendimientos?.diario != null ? b.rendimientos.diario * 365 : null;
+        valA = tnaA ?? -Infinity;
+        valB = tnaB ?? -Infinity;
       }
 
       if (valA < valB) return ordenamiento.direccion === "asc" ? -1 : 1;
