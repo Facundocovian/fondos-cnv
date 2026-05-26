@@ -24,7 +24,7 @@
  *   DELAY_MS      Delay entre batches en ms (default: 200)
  */
 
-import { writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -36,8 +36,12 @@ const CATALOG_URL = "https://estadisticas.cafci.org.ar/consulta-de-fondos.json";
 const FICHA_BASE  = "https://estadisticas.cafci.org.ar/fondos";
 
 const CONCURRENCY  = parseInt(process.env.CONCURRENCY  ?? "5");
-const MAX_RETRIES  = parseInt(process.env.MAX_RETRIES  ?? "2");
-const DELAY_MS     = parseInt(process.env.DELAY_MS     ?? "200");
+const MAX_RETRIES  = parseInt(process.env.MAX_RETRIES  ?? "0");
+const DELAY_MS     = parseInt(process.env.DELAY_MS     ?? "100");
+// Skip fondos already in the output file with data newer than STALE_DAYS.
+// Set FORCE_FULL=1 to bypass and re-fetch everything.
+const STALE_DAYS   = parseInt(process.env.STALE_DAYS   ?? "35");
+const FORCE_FULL   = process.env.FORCE_FULL === "1";
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -80,7 +84,7 @@ async function fetchWithRetry(url, retries = MAX_RETRIES) {
           "User-Agent": "fondos-cnv-ingest/1.0",
           "Accept": "text/html",
         },
-        signal: AbortSignal.timeout(12_000),
+        signal: AbortSignal.timeout(8_000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return await res.text();
@@ -139,11 +143,34 @@ async function main() {
   }
   console.log(`[fetch-composiciones] Catálogo: ${items.length} clases en ${catalog.total_fondos} fondos`);
 
-  // 3. Fetch composición para cada clase con concurrencia limitada
-  const composiciones = {};
+  // 3. Cargar composiciones existentes para modo incremental
+  let existentes = {};
+  try {
+    existentes = JSON.parse(readFileSync(OUTPUT, "utf8")).composiciones ?? {};
+  } catch { /* archivo no existe aún */ }
+
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - STALE_DAYS);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+
+  let carried = 0;
+  const toFetch = [];
+  for (const item of items) {
+    const ex = existentes[item.slug];
+    if (!FORCE_FULL && ex?.fecha && ex.fecha >= cutoffStr) {
+      carried++;
+    } else {
+      toFetch.push(item);
+    }
+  }
+  console.log(`[fetch-composiciones] Incremental: ${carried} actualizados recientemente, ${toFetch.length} a procesar`);
+  if (FORCE_FULL) console.log("[fetch-composiciones] FORCE_FULL=1: re-fetching todo");
+
+  // 4. Fetch solo los fondos que lo necesitan
+  const composiciones = { ...existentes };
   let ok = 0, skipped = 0, failed = 0;
 
-  const tasks = items.map((item) => async () => {
+  const tasks = toFetch.map((item) => async () => {
     const url = `${FICHA_BASE}/${item.fondoId}?clase=${item.claseId}`;
     try {
       const html = await fetchWithRetry(url);
@@ -180,7 +207,7 @@ async function main() {
   });
 
   console.log(`[fetch-composiciones] Descargando composiciones (${CONCURRENCY} paralelos)...`);
-  const total = items.length;
+  const total = toFetch.length;
   let logged = 0;
   // Log de progreso cada 100 fondos
   const logInterval = setInterval(() => {
@@ -194,12 +221,13 @@ async function main() {
   await runPool(tasks, CONCURRENCY);
   clearInterval(logInterval);
 
-  console.log(`[fetch-composiciones] Listo: ✅ ${ok} con datos | ⏭ ${skipped} sin datos | ❌ ${failed} errores`);
+  const totalConDatos = Object.keys(composiciones).length;
+  console.log(`[fetch-composiciones] Listo: ✅ ${ok} nuevos | ⏭ ${skipped} sin datos | ❌ ${failed} errores | 📦 ${totalConDatos} total en archivo`);
 
-  // 4. Escribir JSON
+  // 5. Escribir JSON
   const output = {
     generado_en: new Date().toISOString(),
-    total_con_datos: ok,
+    total_con_datos: totalConDatos,
     total_sin_datos: skipped,
     total_errores: failed,
     composiciones,

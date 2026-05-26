@@ -33,8 +33,9 @@ jobs:
       - name: Descargar composiciones de fondos
         run: node scripts/fetch-composiciones.mjs
         env:
-          CONCURRENCY: "20"
-          DELAY_MS: "50"
+          CONCURRENCY: "5"
+          MAX_RETRIES: "0"
+          DELAY_MS: "100"
 
       - name: Guardar snapshot de cuotapartes
         run: node scripts/snapshot.mjs
