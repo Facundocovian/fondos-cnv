@@ -5,6 +5,7 @@ import type { Fondo, Ordenamiento } from "../types/fondo";
 import { Badge } from "./ui/badge";
 import {
   calcularEstadoDato,
+  etiquetaFrescura,
   estadoDatoBadgeClass,
   estadoFondoBadgeClass,
   monedaBadgeClass,
@@ -184,7 +185,7 @@ export function FondosTable({
                   </td>
 
                   <td className="px-4 py-3 hidden sm:table-cell">
-                    <Badge className={estadoDatoBadgeClass(estadoDato)}>{estadoDato}</Badge>
+                    <Badge className={estadoDatoBadgeClass(estadoDato)}>{etiquetaFrescura(fondo.fecha_valor)}</Badge>
                   </td>
 
                   <td className="px-2 py-3">

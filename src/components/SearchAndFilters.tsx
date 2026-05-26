@@ -2,6 +2,7 @@ import { Search, X, SlidersHorizontal } from "lucide-react";
 import type { FiltrosFondos } from "../types/fondo";
 import { Input } from "./ui/input";
 import { Select } from "./ui/select";
+import { SearchableSelect } from "./ui/searchable-select";
 import { Button } from "./ui/button";
 
 interface SearchAndFiltersProps {
@@ -100,16 +101,14 @@ export function SearchAndFilters({
           ))}
         </Select>
 
-        <Select
+        <SearchableSelect
           label="Sociedad gerente"
           value={filtros.sociedad_gerente}
-          onChange={set("sociedad_gerente")}
-        >
-          <option value="">Todas</option>
-          {opciones.sociedades_gerentes.map((s) => (
-            <option key={s} value={s}>{s}</option>
-          ))}
-        </Select>
+          onChange={(v) => setFiltros((p) => ({ ...p, sociedad_gerente: v }))}
+          options={opciones.sociedades_gerentes}
+          placeholder="Buscar sociedad..."
+          allLabel="Todas"
+        />
 
         <Select
           label="Estado"

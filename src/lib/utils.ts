@@ -6,19 +6,30 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function calcularEstadoDato(fecha_valor: string | null): EstadoDato {
-  if (!fecha_valor) return "Sin dato reciente";
+function diffDiasDesde(fecha_valor: string | null): number | null {
+  if (!fecha_valor) return null;
   const hoy = new Date();
   hoy.setHours(0, 0, 0, 0);
   const fecha = new Date(fecha_valor + "T00:00:00");
-  const diffMs = hoy.getTime() - fecha.getTime();
-  const diffDias = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  // CAFCI publica el cuotaparte de T-1 después de las 18hs.
-  // Los fines de semana y feriados no hay publicación → el dato más
-  // reciente puede tener hasta 4 días (ej: lunes después de fin de semana largo).
-  if (diffDias <= 4) return "Actualizado";
-  if (diffDias <= 10) return "Desactualizado";
+  return Math.floor((hoy.getTime() - fecha.getTime()) / (1000 * 60 * 60 * 24));
+}
+
+export function calcularEstadoDato(fecha_valor: string | null): EstadoDato {
+  const diff = diffDiasDesde(fecha_valor);
+  if (diff === null) return "Sin dato reciente";
+  // CAFCI publica T-1; fines de semana y feriados largos pueden acumular hasta 4 días.
+  if (diff <= 4) return "Actualizado";
+  if (diff <= 14) return "Desactualizado";
   return "Sin dato reciente";
+}
+
+/** Siempre retorna el lag exacto en días: "Hoy", "Hace 1 día", "Hace X días", "Sin dato". */
+export function etiquetaFrescura(fecha_valor: string | null): string {
+  const diff = diffDiasDesde(fecha_valor);
+  if (diff === null) return "Sin dato";
+  if (diff === 0) return "Hoy";
+  if (diff === 1) return "Hace 1 día";
+  return `Hace ${diff} días`;
 }
 
 export function formatearMoneda(valor: number | null, moneda: string): string {

@@ -11,6 +11,7 @@ import type { Fondo, Rendimientos } from "../types/fondo";
 import { Badge } from "./ui/badge";
 import {
   calcularEstadoDato,
+  etiquetaFrescura,
   estadoDatoBadgeClass,
   estadoFondoBadgeClass,
   monedaBadgeClass,
@@ -503,7 +504,7 @@ export function FondoDetailPage({ fondo, onVolver }: FondoDetailPageProps) {
         <div className="flex items-center gap-1.5 shrink-0">
           <Badge className={monedaBadgeClass(fondo.moneda)}>{fondo.moneda}</Badge>
           <Badge className={estadoFondoBadgeClass(fondo.estado)}>{fondo.estado}</Badge>
-          <Badge className={estadoDatoBadgeClass(estadoDato)}>{estadoDato}</Badge>
+          <Badge className={estadoDatoBadgeClass(estadoDato)}>{etiquetaFrescura(fondo.fecha_valor)}</Badge>
         </div>
       </header>
 
