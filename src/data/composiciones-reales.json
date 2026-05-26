@@ -1,8 +1,8 @@
 {
-  "generado_en": "2026-05-20T17:06:00.865Z",
-  "total_con_datos": 4513,
-  "total_sin_datos": 86,
-  "total_errores": 0,
+  "generado_en": "2026-05-26T17:10:17.286Z",
+  "total_con_datos": 4525,
+  "total_sin_datos": 89,
+  "total_errores": 2,
   "composiciones": {
     "1810-ahorro": {
       "nombre": "1810 Ahorro",
@@ -117184,23 +117184,31 @@
       "nombre": "Dracma FCIC Inmobiliario - Clase B",
       "fondoId": 1324,
       "claseId": 3772,
-      "fecha": "2026-04-10",
+      "fecha": "2026-04-24",
       "items": [
         {
           "nombre": "Letra Tesoro Nac T30A7",
-          "porcentaje": 46.8
-        },
-        {
-          "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 26.4
+          "porcentaje": 47.6
         },
         {
           "nombre": "Bono Boncer TZXD7",
-          "porcentaje": 21.8
+          "porcentaje": 21.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 13.3
+        },
+        {
+          "nombre": "Bono Boncer TZX28",
+          "porcentaje": 6.4
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 6.3
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase B",
-          "porcentaje": 5
+          "porcentaje": 4.5
         }
       ]
     },
@@ -117208,23 +117216,31 @@
       "nombre": "Dracma FCIC Inmobiliario - Clase A",
       "fondoId": 1324,
       "claseId": 3771,
-      "fecha": "2026-04-10",
+      "fecha": "2026-04-24",
       "items": [
         {
           "nombre": "Letra Tesoro Nac T30A7",
-          "porcentaje": 46.8
-        },
-        {
-          "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 26.4
+          "porcentaje": 47.6
         },
         {
           "nombre": "Bono Boncer TZXD7",
-          "porcentaje": 21.8
+          "porcentaje": 21.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 13.3
+        },
+        {
+          "nombre": "Bono Boncer TZX28",
+          "porcentaje": 6.4
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 6.3
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase B",
-          "porcentaje": 5
+          "porcentaje": 4.5
         }
       ]
     },
@@ -234705,6 +234721,710 @@
         {
           "nombre": "Resto de Activos",
           "porcentaje": 31.3
+        }
+      ]
+    },
+    "balanz-performance-iv-clase-a": {
+      "nombre": "Balanz Performance IV - Clase A",
+      "fondoId": 1385,
+      "claseId": 3985,
+      "fecha": "2026-03-06",
+      "items": [
+        {
+          "nombre": "Lecer X15Y6",
+          "porcentaje": 26.2
+        },
+        {
+          "nombre": "Bono Boncer TZXM6",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Lecap S17A6",
+          "porcentaje": 25.3
+        },
+        {
+          "nombre": "Lecap S16M6",
+          "porcentaje": 19.7
+        },
+        {
+          "nombre": "FCI Adcap Ahorro Pesos - Clase C",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.1
+        }
+      ]
+    },
+    "balanz-performance-iv-clase-b": {
+      "nombre": "Balanz Performance IV - Clase B",
+      "fondoId": 1385,
+      "claseId": 3986,
+      "fecha": "2026-03-06",
+      "items": [
+        {
+          "nombre": "Lecer X15Y6",
+          "porcentaje": 26.2
+        },
+        {
+          "nombre": "Bono Boncer TZXM6",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Lecap S17A6",
+          "porcentaje": 25.3
+        },
+        {
+          "nombre": "Lecap S16M6",
+          "porcentaje": 19.7
+        },
+        {
+          "nombre": "FCI Adcap Ahorro Pesos - Clase C",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.1
+        }
+      ]
+    },
+    "balanz-performance-iv-clase-c": {
+      "nombre": "Balanz Performance IV - Clase C",
+      "fondoId": 1385,
+      "claseId": 3987,
+      "fecha": "2026-03-06",
+      "items": [
+        {
+          "nombre": "Lecer X15Y6",
+          "porcentaje": 26.2
+        },
+        {
+          "nombre": "Bono Boncer TZXM6",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Lecap S17A6",
+          "porcentaje": 25.3
+        },
+        {
+          "nombre": "Lecap S16M6",
+          "porcentaje": 19.7
+        },
+        {
+          "nombre": "FCI Adcap Ahorro Pesos - Clase C",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.1
+        }
+      ]
+    },
+    "balanz-performance-iv-clase-e": {
+      "nombre": "Balanz Performance IV - Clase E",
+      "fondoId": 1385,
+      "claseId": 3989,
+      "fecha": "2026-03-06",
+      "items": [
+        {
+          "nombre": "Lecer X15Y6",
+          "porcentaje": 26.2
+        },
+        {
+          "nombre": "Bono Boncer TZXM6",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Lecap S17A6",
+          "porcentaje": 25.3
+        },
+        {
+          "nombre": "Lecap S16M6",
+          "porcentaje": 19.7
+        },
+        {
+          "nombre": "FCI Adcap Ahorro Pesos - Clase C",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.1
+        }
+      ]
+    },
+    "dxa-pmkt-total-return-clase-b": {
+      "nombre": "DXA PMKT Total Return - Clase B",
+      "fondoId": 1707,
+      "claseId": 5717,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 13.6
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 13.4
+        },
+        {
+          "nombre": "Ecogas",
+          "porcentaje": 12.6
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 10.4
+        },
+        {
+          "nombre": "Cedear Globant",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "Ishares MSCI Brasil",
+          "porcentaje": 6
+        },
+        {
+          "nombre": "Cedear Spdr SyP 500 ETF",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Mirgor",
+          "porcentaje": 5.4
+        },
+        {
+          "nombre": "Cedear Companhia Siderurgica Nacional",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Autopistas del Sol - D",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 2.5
+        }
+      ]
+    },
+    "dxa-pmkt-total-return-clase-c": {
+      "nombre": "DXA PMKT Total Return - Clase C",
+      "fondoId": 1707,
+      "claseId": 5718,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 13.6
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 13.4
+        },
+        {
+          "nombre": "Ecogas",
+          "porcentaje": 12.6
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 10.4
+        },
+        {
+          "nombre": "Cedear Globant",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "Ishares MSCI Brasil",
+          "porcentaje": 6
+        },
+        {
+          "nombre": "Cedear Spdr SyP 500 ETF",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Mirgor",
+          "porcentaje": 5.4
+        },
+        {
+          "nombre": "Cedear Companhia Siderurgica Nacional",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Autopistas del Sol - D",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 2.5
+        }
+      ]
+    },
+    "dxa-pmkt-total-return-clase-a": {
+      "nombre": "DXA PMKT Total Return - Clase A",
+      "fondoId": 1707,
+      "claseId": 5716,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 13.6
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 13.4
+        },
+        {
+          "nombre": "Ecogas",
+          "porcentaje": 12.6
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 10.4
+        },
+        {
+          "nombre": "Cedear Globant",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "Ishares MSCI Brasil",
+          "porcentaje": 6
+        },
+        {
+          "nombre": "Cedear Spdr SyP 500 ETF",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Mirgor",
+          "porcentaje": 5.4
+        },
+        {
+          "nombre": "Cedear Companhia Siderurgica Nacional",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Autopistas del Sol - D",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 2.5
+        }
+      ]
+    },
+    "dxa-pmkt-total-return-clase-d": {
+      "nombre": "DXA PMKT Total Return - Clase D",
+      "fondoId": 1707,
+      "claseId": 5719,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 13.6
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 13.4
+        },
+        {
+          "nombre": "Ecogas",
+          "porcentaje": 12.6
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 10.4
+        },
+        {
+          "nombre": "Cedear Globant",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "Ishares MSCI Brasil",
+          "porcentaje": 6
+        },
+        {
+          "nombre": "Cedear Spdr SyP 500 ETF",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Mirgor",
+          "porcentaje": 5.4
+        },
+        {
+          "nombre": "Cedear Companhia Siderurgica Nacional",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Autopistas del Sol - D",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 2.5
+        }
+      ]
+    },
+    "insider-retorno-estrategico-clase-a": {
+      "nombre": "Insider Retorno Estratégico - Clase A",
+      "fondoId": 1799,
+      "claseId": 6156,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 10
+        },
+        {
+          "nombre": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "FCI Balanz Capital Money Market  Clase B",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.7
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL41",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Bono Boncer 2029 TZXM9",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 26.5
+        }
+      ]
+    },
+    "insider-retorno-estrategico-clase-d": {
+      "nombre": "Insider Retorno Estratégico - Clase D",
+      "fondoId": 1799,
+      "claseId": 6159,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 10
+        },
+        {
+          "nombre": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "FCI Balanz Capital Money Market  Clase B",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.7
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL41",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Bono Boncer 2029 TZXM9",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 26.5
+        }
+      ]
+    },
+    "insider-retorno-estrategico-clase-b": {
+      "nombre": "Insider Retorno Estratégico - Clase B",
+      "fondoId": 1799,
+      "claseId": 6157,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 10
+        },
+        {
+          "nombre": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "FCI Balanz Capital Money Market  Clase B",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.7
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL41",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Bono Boncer 2029 TZXM9",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 26.5
+        }
+      ]
+    },
+    "insider-retorno-estrategico-clase-c": {
+      "nombre": "Insider Retorno Estratégico - Clase C",
+      "fondoId": 1799,
+      "claseId": 6158,
+      "fecha": "2026-04-24",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 10
+        },
+        {
+          "nombre": "Bono Bopreal 2027 Serie 1 Clase D BPOD7",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "FCI Balanz Capital Money Market  Clase B",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 4.9
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.7
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 4.6
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL41",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Bono Bopreal 2028 Serie 4 Clase B BPOB8",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Bono Boncer 2029 TZXM9",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 26.5
         }
       ]
     }
