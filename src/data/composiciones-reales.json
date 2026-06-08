@@ -1,8 +1,8 @@
 {
-  "generado_en": "2026-06-07T11:37:28.081Z",
-  "total_con_datos": 4603,
-  "total_sin_datos": 45,
-  "total_errores": 0,
+  "generado_en": "2026-06-08T12:34:36.752Z",
+  "total_con_datos": 4615,
+  "total_sin_datos": 50,
+  "total_errores": 24,
   "composiciones": {
     "1810-ahorro": {
       "nombre": "1810 Ahorro",
@@ -86111,11 +86111,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Super Ahorro Pes Cl B",
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -86123,7 +86119,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI Premier Renta CP $ CA",
+          "nombre": "FCI Super Ahorro Pes Cl B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -86167,11 +86167,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Super Ahorro Pes Cl B",
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -86179,7 +86175,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI Premier Renta CP $ CA",
+          "nombre": "FCI Super Ahorro Pes Cl B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -86207,11 +86207,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Super Ahorro Pes Cl B",
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -86219,7 +86215,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI Premier Renta CP $ CA",
+          "nombre": "FCI Super Ahorro Pes Cl B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -156544,11 +156544,11 @@
       "nombre": "Julio A. Roca Abierto Pymes - Clase A",
       "fondoId": 1397,
       "claseId": 4049,
-      "fecha": "2026-03-27",
+      "fecha": "2026-04-10",
       "items": [
         {
-          "nombre": "ON Arbitra C1",
-          "porcentaje": 5.8
+          "nombre": "Bonos Rep Argentina AE38",
+          "porcentaje": 10.4
         },
         {
           "nombre": "ON Ratto Hnos S1 C1 110228",
@@ -156559,8 +156559,8 @@
           "porcentaje": 5.8
         },
         {
-          "nombre": "Bonos Rep Argentina AE38",
-          "porcentaje": 5.6
+          "nombre": "ON Arbitra C1",
+          "porcentaje": 5.8
         },
         {
           "nombre": "ON Madero Harbour S1 C1 161027",
@@ -156568,10 +156568,14 @@
         },
         {
           "nombre": "ON Madero Harbour S1 C2 161027",
-          "porcentaje": 4.7
+          "porcentaje": 4.6
         },
         {
           "nombre": "ON ALZ Nutrientes S1 BI",
+          "porcentaje": 3.5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
           "porcentaje": 3.5
         },
         {
@@ -156581,10 +156585,6 @@
         {
           "nombre": "ON Materia Hermanos S1 221227",
           "porcentaje": 3.5
-        },
-        {
-          "nombre": "Bonos Rep Argentina AL35",
-          "porcentaje": 3.4
         },
         {
           "nombre": "ON Aluar Serie 8",
@@ -156608,7 +156608,7 @@
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 41.7
+          "porcentaje": 36.9
         }
       ]
     },
@@ -239149,6 +239149,942 @@
         {
           "nombre": "Caucion Colocadora USB Merval",
           "porcentaje": 20
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-a": {
+      "nombre": "Axis Brio Valores I - Clase A",
+      "fondoId": 1399,
+      "claseId": 4054,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-b": {
+      "nombre": "Axis Brio Valores I - Clase B",
+      "fondoId": 1399,
+      "claseId": 4055,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-e": {
+      "nombre": "Axis Brio Valores I - Clase E",
+      "fondoId": 1399,
+      "claseId": 4057,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-d": {
+      "nombre": "Axis Brio Valores I - Clase D",
+      "fondoId": 1399,
+      "claseId": 4056,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-x-ley-n-27-743": {
+      "nombre": "Axis Brio Valores I - Clase X Ley N° 27.743",
+      "fondoId": 1399,
+      "claseId": 4911,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-brio-valores-i-clase-y-ley-n-27-743": {
+      "nombre": "Axis Brio Valores I - Clase Y Ley N° 27.743",
+      "fondoId": 1399,
+      "claseId": 4912,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "YPF - D",
+          "porcentaje": 17.7
+        },
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 15.3
+        },
+        {
+          "nombre": "Grupo Fciero Galicia - B",
+          "porcentaje": 14.9
+        },
+        {
+          "nombre": "BYMA",
+          "porcentaje": 8.3
+        },
+        {
+          "nombre": "Transp Gas del Sur - B",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Central Puerto",
+          "porcentaje": 5.9
+        },
+        {
+          "nombre": "Cresud",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "BBVA Argentina",
+          "porcentaje": 3.9
+        },
+        {
+          "nombre": "Ternium - A",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Aluar",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Parakeet Pesos - Clase B",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 12
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-a": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase A",
+      "fondoId": 1524,
+      "claseId": 4573,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-d": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase D",
+      "fondoId": 1524,
+      "claseId": 4575,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-b": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase B",
+      "fondoId": 1524,
+      "claseId": 4574,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-e": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase E",
+      "fondoId": 1524,
+      "claseId": 4576,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-x-ley-n-27-743": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase X Ley N° 27.743",
+      "fondoId": 1524,
+      "claseId": 4914,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
+        }
+      ]
+    },
+    "axis-multiplo-bursatil-retorno-absoluto-clase-y-ley-n-27-743": {
+      "nombre": "Axis Multiplo Bursatil Retorno Absoluto - Clase Y Ley N° 27.743",
+      "fondoId": 1524,
+      "claseId": 4915,
+      "fecha": "2026-05-15",
+      "items": [
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 18.8
+        },
+        {
+          "nombre": "Lecap S29Y6",
+          "porcentaje": 10.3
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Fut Rofex DLR052026",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Cedear Invesco QQQ",
+          "porcentaje": 5.2
+        },
+        {
+          "nombre": "Cedear ETF VanEck Semiconductors",
+          "porcentaje": 5
+        },
+        {
+          "nombre": "Bonos Rep Argentina AL35",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Lecap S30N6",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac S30O6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap S31G6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T15E7",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Lecap S31L6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON Pan American C38",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Cedear Ishares Bitcoin Trust",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Cedear Ishares S.Korea",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional T31Y7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Vista Gas y Oil Arg C23",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Lecap S12J6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S17L6",
+          "porcentaje": 2
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2
         }
       ]
     }
