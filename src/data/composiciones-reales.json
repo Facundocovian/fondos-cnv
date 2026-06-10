@@ -1,8 +1,8 @@
 {
-  "generado_en": "2026-06-09T12:05:23.139Z",
-  "total_con_datos": 4627,
-  "total_sin_datos": 38,
-  "total_errores": 15,
+  "generado_en": "2026-06-10T12:09:43.167Z",
+  "total_con_datos": 4645,
+  "total_sin_datos": 31,
+  "total_errores": 22,
   "composiciones": {
     "1810-ahorro": {
       "nombre": "1810 Ahorro",
@@ -156551,15 +156551,15 @@
           "porcentaje": 10.4
         },
         {
+          "nombre": "ON Arbitra C1",
+          "porcentaje": 5.8
+        },
+        {
           "nombre": "ON Ratto Hnos S1 C1 110228",
           "porcentaje": 5.8
         },
         {
           "nombre": "ON Remonda S1 C1",
-          "porcentaje": 5.8
-        },
-        {
-          "nombre": "ON Arbitra C1",
           "porcentaje": 5.8
         },
         {
@@ -236660,31 +236660,39 @@
       "nombre": "Balanz Performance IV - Clase D",
       "fondoId": 1385,
       "claseId": 3988,
-      "fecha": "2026-03-06",
+      "fecha": "2026-05-22",
       "items": [
         {
-          "nombre": "Lecer X15Y6",
-          "porcentaje": 26.2
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 15
         },
         {
-          "nombre": "Bono Boncer TZXM6",
-          "porcentaje": 26.1
+          "nombre": "FCI IEB Ahorro - Clase E",
+          "porcentaje": 14.1
         },
         {
-          "nombre": "Lecap S17A6",
-          "porcentaje": 25.3
+          "nombre": "Letra Tesoro Nac T30A7",
+          "porcentaje": 12.5
         },
         {
-          "nombre": "Lecap S16M6",
-          "porcentaje": 19.7
+          "nombre": "Letra Tamar TEM TMF27",
+          "porcentaje": 12.3
+        },
+        {
+          "nombre": "FCI Schroder Liquidez - Clase B",
+          "porcentaje": 12
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase C",
-          "porcentaje": 2.6
+          "porcentaje": 12
         },
         {
-          "nombre": "Resto de Activos",
-          "porcentaje": 0.1
+          "nombre": "FCI MEGAQM Pesos - Clase B",
+          "porcentaje": 12
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional TZV26",
+          "porcentaje": 10
         }
       ]
     },
@@ -240437,6 +240445,742 @@
         {
           "nombre": "ETF State Street SPDR Bloomberg Investment Grade Floating Rate",
           "porcentaje": 16.8
+        }
+      ]
+    },
+    "allaria-gestion-dinamica-clase-a": {
+      "nombre": "Allaria Gestión Dinámica - Clase A",
+      "fondoId": 1706,
+      "claseId": 5712,
+      "fecha": "2026-05-08",
+      "items": [
+        {
+          "nombre": "Cta Cte $ Bco Comafi",
+          "porcentaje": 100
+        }
+      ]
+    },
+    "argenfunds-calificado-iii-clase-b": {
+      "nombre": "Argenfunds Calificado III - Clase B",
+      "fondoId": 1873,
+      "claseId": 6477,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Cta Cte USD Banco de Credito e Inversiones",
+          "porcentaje": 22.1
+        },
+        {
+          "nombre": "Advanced Micro Devices",
+          "porcentaje": 4.5
+        },
+        {
+          "nombre": "ADR ASML Holding",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Eli Lilly",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Global X Uranium ETF",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Broadcom Inc",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "ADR Taiwan Semiconductor",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "ADR Iberdrola",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Mercado Libre",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Ishares Silver Trust",
+          "porcentaje": 4.3
+        },
+        {
+          "nombre": "Nvidia Corp.",
+          "porcentaje": 4.2
+        },
+        {
+          "nombre": "Chevron",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Nextera Inc.",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "ADR Vista Oil y Gas",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Palantir Technologies Inc.",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Weg US",
+          "porcentaje": 4
+        },
+        {
+          "nombre": "NU Holdings Ltd",
+          "porcentaje": 4
+        },
+        {
+          "nombre": "Uber",
+          "porcentaje": 4
+        },
+        {
+          "nombre": "IREN Ltd",
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "SoFi Technologies, Inc.",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "Ondas Holdings Inc.",
+          "porcentaje": 2.1
+        }
+      ]
+    },
+    "allaria-gestion-dinamica-clase-c": {
+      "nombre": "Allaria Gestión Dinámica - Clase C",
+      "fondoId": 1706,
+      "claseId": 5714,
+      "fecha": "2026-05-08",
+      "items": [
+        {
+          "nombre": "Cta Cte $ Bco Comafi",
+          "porcentaje": 100
+        }
+      ]
+    },
+    "fba-cobertura-pesos-clase-b": {
+      "nombre": "FBA Cobertura Pesos - Clase B",
+      "fondoId": 845,
+      "claseId": 2406,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 29.6
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 14.6
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 14.5
+        },
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 11.5
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 9.4
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "Bono Boncer TZX28",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TX26",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "fba-cobertura-pesos-clase-a": {
+      "nombre": "FBA Cobertura Pesos - Clase A",
+      "fondoId": 845,
+      "claseId": 3550,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 29.6
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 14.6
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 14.5
+        },
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 11.5
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 9.4
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "Bono Boncer TZX28",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 3.8
+        },
+        {
+          "nombre": "Lecer X30N6",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Bono Boncer TX26",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "fba-money-market-pesos-clase-j-ley-n-27-743": {
+      "nombre": "FBA Money Market Pesos - Clase J Ley Nº 27.743",
+      "fondoId": 111,
+      "claseId": 4813,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pzo Fi $ Bco Nacion",
+          "porcentaje": 15.9
+        },
+        {
+          "nombre": "Cta Cte $ Rem BBVA",
+          "porcentaje": 12.2
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Pzo Fi $ ICBC",
+          "porcentaje": 7
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Macro Bansud",
+          "porcentaje": 7
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Provincia",
+          "porcentaje": 6.6
+        },
+        {
+          "nombre": "Cta Cte $ Rem Bco Nacion",
+          "porcentaje": 6.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Galicia",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Supervielle",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Santander Ri",
+          "porcentaje": 3.5
+        },
+        {
+          "nombre": "Pzo Fi $ Nvo Bco Indus",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Valores",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Pzo Fi $ Nvo Bco Santa Fe",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 13.3
+        }
+      ]
+    },
+    "fba-money-market-pesos-clase-k-ley-n-27-743": {
+      "nombre": "FBA Money Market Pesos - Clase K Ley Nº 27.743",
+      "fondoId": 111,
+      "claseId": 4814,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pzo Fi $ Bco Nacion",
+          "porcentaje": 15.9
+        },
+        {
+          "nombre": "Cta Cte $ Rem BBVA",
+          "porcentaje": 12.2
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 9
+        },
+        {
+          "nombre": "Pzo Fi $ ICBC",
+          "porcentaje": 7
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Macro Bansud",
+          "porcentaje": 7
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Provincia",
+          "porcentaje": 6.6
+        },
+        {
+          "nombre": "Cta Cte $ Rem Bco Nacion",
+          "porcentaje": 6.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Galicia",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Supervielle",
+          "porcentaje": 5.5
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Santander Ri",
+          "porcentaje": 3.5
+        },
+        {
+          "nombre": "Pzo Fi $ Nvo Bco Indus",
+          "porcentaje": 2.8
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Valores",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Pzo Fi $ Nvo Bco Santa Fe",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 13.3
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-i-clase-a": {
+      "nombre": "FBA Renta Fija Pesos I - Clase A",
+      "fondoId": 379,
+      "claseId": 681,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 21.1
+        },
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 20.2
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Nacion",
+          "porcentaje": 12.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 10.8
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 8
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 17.7
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-i-clase-b": {
+      "nombre": "FBA Renta Fija Pesos I - Clase B",
+      "fondoId": 379,
+      "claseId": 682,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 21.1
+        },
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 20.2
+        },
+        {
+          "nombre": "Pzo Fi $ Bco Nacion",
+          "porcentaje": 12.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 10.8
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 8
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 17.7
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-ii-clase-b": {
+      "nombre": "FBA Renta Fija Pesos II - Clase B",
+      "fondoId": 287,
+      "claseId": 895,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 24.2
+        },
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 12.3
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 11.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 2.5
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-ii-clase-j-ley-n-27-743": {
+      "nombre": "FBA Renta Fija Pesos II - Clase J Ley Nº 27.743",
+      "fondoId": 287,
+      "claseId": 4815,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 24.2
+        },
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 12.3
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 11.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 2.5
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-ii-clase-b2": {
+      "nombre": "FBA Renta Fija Pesos II - Clase B2",
+      "fondoId": 287,
+      "claseId": 6050,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 24.2
+        },
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 12.3
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 11.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 2.5
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-plus-i-clase-b": {
+      "nombre": "FBA Renta Fija Pesos Plus I - Clase B",
+      "fondoId": 434,
+      "claseId": 817,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 23.8
+        },
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 20.5
+        },
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 19.4
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 12
+        },
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 10.6
+        },
+        {
+          "nombre": "Lecap T30J6",
+          "porcentaje": 4.8
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 4.4
+        },
+        {
+          "nombre": "Lecer X30S6",
+          "porcentaje": 2.9
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.4
+        }
+      ]
+    },
+    "fba-renta-fija-pesos-ii-clase-b3": {
+      "nombre": "FBA Renta Fija Pesos II - Clase B3",
+      "fondoId": 287,
+      "claseId": 6218,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Bono Boncer TZX26",
+          "porcentaje": 26.1
+        },
+        {
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 24.2
+        },
+        {
+          "nombre": "Lecer X31L6",
+          "porcentaje": 12.3
+        },
+        {
+          "nombre": "Bono Dual TTS26",
+          "porcentaje": 11.1
+        },
+        {
+          "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Lecap S14G6",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Lecer X29Y6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 2.5
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 1.8
+        }
+      ]
+    },
+    "mp-empresas-argentinas-clase-a": {
+      "nombre": "MP Empresas Argentinas - Clase A",
+      "fondoId": 1804,
+      "claseId": 6181,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 45.9
+        },
+        {
+          "nombre": "Banco Macro Bansud - B",
+          "porcentaje": 32.5
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 21.6
+        }
+      ]
+    },
+    "mp-empresas-argentinas-clase-c": {
+      "nombre": "MP Empresas Argentinas - Clase C",
+      "fondoId": 1804,
+      "claseId": 6183,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 45.9
+        },
+        {
+          "nombre": "Banco Macro Bansud - B",
+          "porcentaje": 32.5
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 21.6
+        }
+      ]
+    },
+    "mp-empresas-argentinas-clase-b": {
+      "nombre": "MP Empresas Argentinas - Clase B",
+      "fondoId": 1804,
+      "claseId": 6182,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 45.9
+        },
+        {
+          "nombre": "Banco Macro Bansud - B",
+          "porcentaje": 32.5
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 21.6
+        }
+      ]
+    },
+    "mp-empresas-argentinas-clase-d": {
+      "nombre": "MP Empresas Argentinas - Clase D",
+      "fondoId": 1804,
+      "claseId": 6184,
+      "fecha": "2026-05-22",
+      "items": [
+        {
+          "nombre": "Pampa Energia",
+          "porcentaje": 45.9
+        },
+        {
+          "nombre": "Banco Macro Bansud - B",
+          "porcentaje": 32.5
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 21.6
         }
       ]
     }
