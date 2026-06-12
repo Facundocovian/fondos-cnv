@@ -1,8 +1,8 @@
 {
-  "generado_en": "2026-06-11T12:26:03.843Z",
-  "total_con_datos": 4656,
+  "generado_en": "2026-06-12T12:09:10.129Z",
+  "total_con_datos": 4658,
   "total_sin_datos": 37,
-  "total_errores": 28,
+  "total_errores": 15,
   "composiciones": {
     "1810-ahorro": {
       "nombre": "1810 Ahorro",
@@ -59848,7 +59848,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase C",
       "fondoId": 1810,
       "claseId": 6210,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -59860,7 +59860,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase D",
       "fondoId": 1810,
       "claseId": 6211,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -59940,7 +59940,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase A",
       "fondoId": 1810,
       "claseId": 6208,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -59952,7 +59952,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase B",
       "fondoId": 1810,
       "claseId": 6209,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -59964,7 +59964,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase E",
       "fondoId": 1810,
       "claseId": 6212,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -59976,7 +59976,7 @@
       "nombre": "Balanz Capital Estrategia VI USD - Clase F",
       "fondoId": 1810,
       "claseId": 6213,
-      "fecha": "2026-04-24",
+      "fecha": "2026-05-22",
       "items": [
         {
           "nombre": "Cta Cte USC Citibank",
@@ -86111,11 +86111,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI Premier Renta CP $ CA",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Fima Premium Clase B",
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -86123,7 +86119,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
+          "nombre": "FCI Fima Premium Clase B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -86167,11 +86167,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI Premier Renta CP $ CA",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Fima Premium Clase B",
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -86179,7 +86175,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
+          "nombre": "FCI Fima Premium Clase B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -86207,11 +86207,7 @@
       "fecha": "2018-11-23",
       "items": [
         {
-          "nombre": "FCI Premier Renta CP $ CA",
-          "porcentaje": 18.1
-        },
-        {
-          "nombre": "FCI Fima Premium Clase B",
+          "nombre": "FCI FBA Renta Pesos Cl B",
           "porcentaje": 18.1
         },
         {
@@ -86219,7 +86215,11 @@
           "porcentaje": 18.1
         },
         {
-          "nombre": "FCI FBA Renta Pesos Cl B",
+          "nombre": "FCI Fima Premium Clase B",
+          "porcentaje": 18.1
+        },
+        {
+          "nombre": "FCI Premier Renta CP $ CA",
           "porcentaje": 18.1
         },
         {
@@ -241188,51 +241188,19 @@
       "nombre": "Balanz Performance XII - Clase A",
       "fondoId": 1474,
       "claseId": 4360,
-      "fecha": "2025-04-25",
+      "fecha": "2025-05-09",
       "items": [
         {
-          "nombre": "Bono Dual TTM26",
-          "porcentaje": 20.3
-        },
-        {
-          "nombre": "Bonos Rep Argentina GD30",
-          "porcentaje": 13.2
-        },
-        {
-          "nombre": "Lecap S16Y5",
-          "porcentaje": 11.6
-        },
-        {
-          "nombre": "Lecap S30Y5",
-          "porcentaje": 11.5
-        },
-        {
-          "nombre": "Bonos Rep Argentina GD41",
-          "porcentaje": 8.9
-        },
-        {
-          "nombre": "Bono Dual TTJ26",
-          "porcentaje": 8.2
-        },
-        {
-          "nombre": "Bono Dual TTS26",
-          "porcentaje": 8.1
-        },
-        {
-          "nombre": "Bono Dual TTD26",
-          "porcentaje": 8.1
-        },
-        {
           "nombre": "FCI Schroder Liquidez - Clase B",
-          "porcentaje": 4.9
+          "porcentaje": 97
         },
         {
-          "nombre": "ON GEMSA Clase 30",
-          "porcentaje": 4.1
+          "nombre": "Cta Cte USC Citibank",
+          "porcentaje": 2.7
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 1
+          "porcentaje": 0.3
         }
       ]
     },
@@ -241240,51 +241208,19 @@
       "nombre": "Balanz Performance XII - Clase B",
       "fondoId": 1474,
       "claseId": 4361,
-      "fecha": "2025-04-25",
+      "fecha": "2025-05-09",
       "items": [
         {
-          "nombre": "Bono Dual TTM26",
-          "porcentaje": 20.3
-        },
-        {
-          "nombre": "Bonos Rep Argentina GD30",
-          "porcentaje": 13.2
-        },
-        {
-          "nombre": "Lecap S16Y5",
-          "porcentaje": 11.6
-        },
-        {
-          "nombre": "Lecap S30Y5",
-          "porcentaje": 11.5
-        },
-        {
-          "nombre": "Bonos Rep Argentina GD41",
-          "porcentaje": 8.9
-        },
-        {
-          "nombre": "Bono Dual TTJ26",
-          "porcentaje": 8.2
-        },
-        {
-          "nombre": "Bono Dual TTS26",
-          "porcentaje": 8.1
-        },
-        {
-          "nombre": "Bono Dual TTD26",
-          "porcentaje": 8.1
-        },
-        {
           "nombre": "FCI Schroder Liquidez - Clase B",
-          "porcentaje": 4.9
+          "porcentaje": 97
         },
         {
-          "nombre": "ON GEMSA Clase 30",
-          "porcentaje": 4.1
+          "nombre": "Cta Cte USC Citibank",
+          "porcentaje": 2.7
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 1
+          "porcentaje": 0.3
         }
       ]
     },
@@ -241705,6 +241641,46 @@
         {
           "nombre": "Resto de Activos",
           "porcentaje": 1.3
+        }
+      ]
+    },
+    "balanz-performance-xii-clase-c": {
+      "nombre": "Balanz Performance XII - Clase C",
+      "fondoId": 1474,
+      "claseId": 4362,
+      "fecha": "2025-05-09",
+      "items": [
+        {
+          "nombre": "FCI Schroder Liquidez - Clase B",
+          "porcentaje": 97
+        },
+        {
+          "nombre": "Cta Cte USC Citibank",
+          "porcentaje": 2.7
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.3
+        }
+      ]
+    },
+    "balanz-performance-xii-clase-d": {
+      "nombre": "Balanz Performance XII - Clase D",
+      "fondoId": 1474,
+      "claseId": 4363,
+      "fecha": "2025-05-09",
+      "items": [
+        {
+          "nombre": "FCI Schroder Liquidez - Clase B",
+          "porcentaje": 97
+        },
+        {
+          "nombre": "Cta Cte USC Citibank",
+          "porcentaje": 2.7
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.3
         }
       ]
     }
