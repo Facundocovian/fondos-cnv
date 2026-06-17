@@ -1,8 +1,8 @@
 {
-  "generado_en": "2026-06-16T12:45:08.889Z",
-  "total_con_datos": 4668,
-  "total_sin_datos": 33,
-  "total_errores": 77,
+  "generado_en": "2026-06-17T12:30:49.282Z",
+  "total_con_datos": 4670,
+  "total_sin_datos": 27,
+  "total_errores": 95,
   "composiciones": {
     "1810-ahorro": {
       "nombre": "1810 Ahorro",
@@ -80252,71 +80252,75 @@
       "nombre": "Champaquí Renta Pesos - Clase B",
       "fondoId": 1544,
       "claseId": 4655,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Letra Tamar TEM TMF27",
-          "porcentaje": 16.1
+          "nombre": "Bono Boncer TZXS7",
+          "porcentaje": 13.2
         },
         {
           "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 12.2
+        },
+        {
+          "nombre": "Letra Tamar TEM TMF27",
+          "porcentaje": 11.9
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
           "porcentaje": 10.5
         },
         {
+          "nombre": "Lecap S15S6",
+          "porcentaje": 7.9
+        },
+        {
           "nombre": "Pzo Fi $ Bco Provincia",
-          "porcentaje": 9.4
+          "porcentaje": 6.9
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 9.1
+          "porcentaje": 6.7
         },
         {
           "nombre": "ON Santander Rio S 31",
-          "porcentaje": 7.3
+          "porcentaje": 5.4
         },
         {
           "nombre": "ON Banco de Valores C3",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "Lecap S12J6",
-          "porcentaje": 5.8
-        },
-        {
-          "nombre": "ON Banco Comafi C15",
-          "porcentaje": 5.8
-        },
-        {
-          "nombre": "Bono Boncer TZXO6",
-          "porcentaje": 4.6
+          "porcentaje": 5.4
         },
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 4.2
-        },
-        {
-          "nombre": "ON Bco Provincia Cl 1",
-          "porcentaje": 3.8
+          "porcentaje": 3.1
         },
         {
           "nombre": "ON BBVA Frances Cl 36",
-          "porcentaje": 3.8
+          "porcentaje": 2.8
         },
         {
           "nombre": "ON Banco Comafi C22",
-          "porcentaje": 3.7
+          "porcentaje": 2.7
         },
         {
-          "nombre": "FCI MAF Money Market - Clase B",
-          "porcentaje": 3.6
+          "nombre": "ON Banco Nacion Argentina Clase 1",
+          "porcentaje": 2.7
         },
         {
-          "nombre": "ON Santander Rio S 30",
-          "porcentaje": 3.5
+          "nombre": "ON Mercado Pago C6",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "FCI Argenfunds Liquidez - Clase B",
+          "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 1.4
+          "porcentaje": 1.7
         }
       ]
     },
@@ -80324,71 +80328,75 @@
       "nombre": "Champaquí Renta Pesos - Clase C",
       "fondoId": 1544,
       "claseId": 4656,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Letra Tamar TEM TMF27",
-          "porcentaje": 16.1
+          "nombre": "Bono Boncer TZXS7",
+          "porcentaje": 13.2
         },
         {
           "nombre": "Letra Tamar TEM M31G6",
+          "porcentaje": 12.2
+        },
+        {
+          "nombre": "Letra Tamar TEM TMF27",
+          "porcentaje": 11.9
+        },
+        {
+          "nombre": "Bono Boncer 2027 TZXM7",
           "porcentaje": 10.5
         },
         {
+          "nombre": "Lecap S15S6",
+          "porcentaje": 7.9
+        },
+        {
           "nombre": "Pzo Fi $ Bco Provincia",
-          "porcentaje": 9.4
+          "porcentaje": 6.9
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 9.1
+          "porcentaje": 6.7
         },
         {
           "nombre": "ON Santander Rio S 31",
-          "porcentaje": 7.3
+          "porcentaje": 5.4
         },
         {
           "nombre": "ON Banco de Valores C3",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "Lecap S12J6",
-          "porcentaje": 5.8
-        },
-        {
-          "nombre": "ON Banco Comafi C15",
-          "porcentaje": 5.8
-        },
-        {
-          "nombre": "Bono Boncer TZXO6",
-          "porcentaje": 4.6
+          "porcentaje": 5.4
         },
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 4.2
-        },
-        {
-          "nombre": "ON Bco Provincia Cl 1",
-          "porcentaje": 3.8
+          "porcentaje": 3.1
         },
         {
           "nombre": "ON BBVA Frances Cl 36",
-          "porcentaje": 3.8
+          "porcentaje": 2.8
         },
         {
           "nombre": "ON Banco Comafi C22",
-          "porcentaje": 3.7
+          "porcentaje": 2.7
         },
         {
-          "nombre": "FCI MAF Money Market - Clase B",
-          "porcentaje": 3.6
+          "nombre": "ON Banco Nacion Argentina Clase 1",
+          "porcentaje": 2.7
         },
         {
-          "nombre": "ON Santander Rio S 30",
-          "porcentaje": 3.5
+          "nombre": "ON Mercado Pago C6",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "FCI Argenfunds Liquidez - Clase B",
+          "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 1.4
+          "porcentaje": 1.7
         }
       ]
     },
@@ -159212,23 +159220,11 @@
       "nombre": "MAF Gestion Activa II - Clase C",
       "fondoId": 1326,
       "claseId": 3785,
-      "fecha": "2025-10-17",
+      "fecha": "2025-10-31",
       "items": [
         {
-          "nombre": "ON YPF Luz Cl10",
-          "porcentaje": 84.7
-        },
-        {
-          "nombre": "ON Edesa Clase 2",
-          "porcentaje": 10.4
-        },
-        {
-          "nombre": "ON Telecom C14 TLCFO",
-          "porcentaje": 4.2
-        },
-        {
-          "nombre": "Resto de Activos",
-          "porcentaje": 0.6
+          "nombre": "Cta Cte $ Bco Mariva",
+          "porcentaje": 100
         }
       ]
     },
@@ -203020,67 +203016,67 @@
       "nombre": "SBS Patrimonio III - Clase B",
       "fondoId": 1601,
       "claseId": 5267,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Bono Boncer TZXS8",
-          "porcentaje": 18.2
+          "porcentaje": 17.1
         },
         {
-          "nombre": "Bono Boncer TZX26",
-          "porcentaje": 10.4
+          "nombre": "Bono Boncer TZXD7",
+          "porcentaje": 15.8
         },
         {
           "nombre": "Bono Boncer TX26",
-          "porcentaje": 8.5
-        },
-        {
-          "nombre": "Bono Prov Cordoba Clase 4",
-          "porcentaje": 8.4
-        },
-        {
-          "nombre": "Bono Boncer TZXO6",
           "porcentaje": 7.8
         },
         {
-          "nombre": "Letra Prov Bs As XB2S6",
+          "nombre": "Bono Prov Cordoba Clase 4",
+          "porcentaje": 7.7
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
           "porcentaje": 7.2
         },
         {
+          "nombre": "Letra Prov Bs As XB2S6",
+          "porcentaje": 6.6
+        },
+        {
           "nombre": "Cheque E *MAV080600893",
-          "porcentaje": 6.7
+          "porcentaje": 6.1
         },
         {
           "nombre": "Bono Boncer TZX28",
-          "porcentaje": 6.2
+          "porcentaje": 5.9
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 6
+          "porcentaje": 5.5
         },
         {
           "nombre": "Boncer Mendoza C1",
-          "porcentaje": 5.3
+          "porcentaje": 4.9
         },
         {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 3.8
+          "nombre": "Cheque E *MAV151001350",
+          "porcentaje": 4.4
         },
         {
           "nombre": "ON Rombo Cia Fciera S66",
-          "porcentaje": 3.4
+          "porcentaje": 3.2
         },
         {
           "nombre": "Pagare $MAV040660034",
-          "porcentaje": 3.4
+          "porcentaje": 3.1
         },
         {
           "nombre": "ON Arcor C3",
-          "porcentaje": 2.2
+          "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 2.6
+          "porcentaje": 2.8
         }
       ]
     },
@@ -203088,27 +203084,31 @@
       "nombre": "SBS Patrimonio IV - Clase B",
       "fondoId": 701,
       "claseId": 1499,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Bono Boncer TZX26",
-          "porcentaje": 34.4
+          "nombre": "Bono Boncer TX26",
+          "porcentaje": 27.1
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 26
         },
         {
           "nombre": "US Treasury Bill 110626",
-          "porcentaje": 26.6
+          "porcentaje": 22.5
         },
         {
-          "nombre": "Bono Boncer TX26",
-          "porcentaje": 20.2
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 19.7
         },
         {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 17.5
+          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
+          "porcentaje": 3.8
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 1.3
+          "porcentaje": 0.9
         }
       ]
     },
@@ -203188,43 +203188,59 @@
       "nombre": "SBS Patrimonio IX - Clase A",
       "fondoId": 1747,
       "claseId": 5902,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Fut Reg ARS",
-          "porcentaje": 46
-        },
-        {
-          "nombre": "Bono del Tesoro Nacional TZV26",
-          "porcentaje": 28.6
+          "porcentaje": 39
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 19.8
+          "porcentaje": 27.2
         },
         {
-          "nombre": "Lecer X29Y6",
+          "nombre": "Bono del Tesoro Nacional TZV26",
           "porcentaje": 13.5
         },
         {
-          "nombre": "Lecap S29Y6",
-          "porcentaje": 11.7
+          "nombre": "Letra Tesoro Nac D31L6",
+          "porcentaje": 12
         },
         {
-          "nombre": "Caucion Colocadora U$S Merval",
-          "porcentaje": 4.6
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 8.6
         },
         {
           "nombre": "ON Pan American C40",
-          "porcentaje": 4.5
+          "porcentaje": 4
         },
         {
-          "nombre": "FCI Adcap Ahorro Dólares - Clase E",
+          "nombre": "Caucion Colocadora U$S Merval",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lelink D30S6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Letra Tesoro Nac D31M7",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
           "porcentaje": 2.9
         },
         {
+          "nombre": "FCI Adcap Ahorro Dólares - Clase E",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Pagare $MAV250660047",
+          "porcentaje": 2.4
+        },
+        {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 2.5
+          "porcentaje": 2.2
         }
       ]
     },
@@ -203232,51 +203248,55 @@
       "nombre": "SBS Patrimonio V - Clase A",
       "fondoId": 1309,
       "claseId": 3721,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Lecap S15Y6",
-          "porcentaje": 26
-        },
-        {
-          "nombre": "Lecer X15Y6",
+          "nombre": "Letra Tesoro Nac D31L6",
           "porcentaje": 23.9
         },
         {
-          "nombre": "Fut Reg ARS",
-          "porcentaje": 17.7
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 17.1
         },
         {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 15
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 15.6
         },
         {
           "nombre": "Pagare $UMV290760013",
-          "porcentaje": 11.7
+          "porcentaje": 13.6
         },
         {
           "nombre": "ON YPF Luz C12",
-          "porcentaje": 6.7
+          "porcentaje": 7.7
         },
         {
           "nombre": "Bono del Tesoro Nacional TZV26",
-          "porcentaje": 4.2
+          "porcentaje": 4.9
         },
         {
-          "nombre": "Bono del Tesoro Nacional T15E7",
+          "nombre": "Lecap S30S6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Fut Reg ARS",
           "porcentaje": 3.5
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 2.8
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 3.2
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 2.7
+          "porcentaje": 3.1
         },
         {
           "nombre": "Bono Dual TTS26",
-          "porcentaje": 2.7
+          "porcentaje": 3.1
         }
       ]
     },
@@ -203284,43 +203304,59 @@
       "nombre": "SBS Patrimonio IX - Clase B",
       "fondoId": 1747,
       "claseId": 5903,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Fut Reg ARS",
-          "porcentaje": 46
-        },
-        {
-          "nombre": "Bono del Tesoro Nacional TZV26",
-          "porcentaje": 28.6
+          "porcentaje": 39
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 19.8
+          "porcentaje": 27.2
         },
         {
-          "nombre": "Lecer X29Y6",
+          "nombre": "Bono del Tesoro Nacional TZV26",
           "porcentaje": 13.5
         },
         {
-          "nombre": "Lecap S29Y6",
-          "porcentaje": 11.7
+          "nombre": "Letra Tesoro Nac D31L6",
+          "porcentaje": 12
         },
         {
-          "nombre": "Caucion Colocadora U$S Merval",
-          "porcentaje": 4.6
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 8.6
         },
         {
           "nombre": "ON Pan American C40",
-          "porcentaje": 4.5
+          "porcentaje": 4
         },
         {
-          "nombre": "FCI Adcap Ahorro Dólares - Clase E",
+          "nombre": "Caucion Colocadora U$S Merval",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Lelink D30S6",
+          "porcentaje": 3.4
+        },
+        {
+          "nombre": "Letra Tesoro Nac D31M7",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
           "porcentaje": 2.9
         },
         {
+          "nombre": "FCI Adcap Ahorro Dólares - Clase E",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Pagare $MAV250660047",
+          "porcentaje": 2.4
+        },
+        {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 2.5
+          "porcentaje": 2.2
         }
       ]
     },
@@ -203480,51 +203516,55 @@
       "nombre": "SBS Patrimonio V - Clase Ley N° 27.743",
       "fondoId": 1309,
       "claseId": 5087,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Lecap S15Y6",
-          "porcentaje": 26
-        },
-        {
-          "nombre": "Lecer X15Y6",
+          "nombre": "Letra Tesoro Nac D31L6",
           "porcentaje": 23.9
         },
         {
-          "nombre": "Fut Reg ARS",
-          "porcentaje": 17.7
+          "nombre": "Bono Dual TTJ26",
+          "porcentaje": 17.1
         },
         {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 15
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 15.6
         },
         {
           "nombre": "Pagare $UMV290760013",
-          "porcentaje": 11.7
+          "porcentaje": 13.6
         },
         {
           "nombre": "ON YPF Luz C12",
-          "porcentaje": 6.7
+          "porcentaje": 7.7
         },
         {
           "nombre": "Bono del Tesoro Nacional TZV26",
-          "porcentaje": 4.2
+          "porcentaje": 4.9
         },
         {
-          "nombre": "Bono del Tesoro Nacional T15E7",
+          "nombre": "Lecap S30S6",
+          "porcentaje": 4.1
+        },
+        {
+          "nombre": "Fut Reg ARS",
           "porcentaje": 3.5
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 2.8
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "FCI Allaria Ahorro - Clase C",
+          "porcentaje": 3.2
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 2.7
+          "porcentaje": 3.1
         },
         {
           "nombre": "Bono Dual TTS26",
-          "porcentaje": 2.7
+          "porcentaje": 3.1
         }
       ]
     },
@@ -203532,71 +203572,59 @@
       "nombre": "SBS Patrimonio VI - Clase B",
       "fondoId": 1312,
       "claseId": 3735,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Pagare $MAV241160003",
-          "porcentaje": 5.9
+          "porcentaje": 6.2
         },
         {
           "nombre": "Pagare $UMV290760012",
-          "porcentaje": 4.1
+          "porcentaje": 4.3
         },
         {
           "nombre": "Pagare $UMV070760004",
-          "porcentaje": 4
+          "porcentaje": 4.3
         },
         {
           "nombre": "Pagare $MAV040660038",
-          "porcentaje": 2.9
-        },
-        {
-          "nombre": "ON Capex C6",
-          "porcentaje": 2.8
-        },
-        {
-          "nombre": "ON Invap C6 S1",
-          "porcentaje": 2.5
+          "porcentaje": 3.1
         },
         {
           "nombre": "ON Special G y Petroagro C3",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac D31L6",
           "porcentaje": 2.4
-        },
-        {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 2.4
-        },
-        {
-          "nombre": "ON YPF Clase 30",
-          "porcentaje": 2.2
-        },
-        {
-          "nombre": "FF Creditech S5 CA",
-          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300660006",
-          "porcentaje": 2
+          "porcentaje": 2.2
         },
         {
           "nombre": "Pagare $UMV140760001",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170010",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170011",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170012",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "ON Aluar Serie 6",
           "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 58.8
+          "porcentaje": 64.8
         }
       ]
     },
@@ -203604,71 +203632,59 @@
       "nombre": "SBS Patrimonio VI - Clase Ley N° 27.743",
       "fondoId": 1312,
       "claseId": 5094,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Pagare $MAV241160003",
-          "porcentaje": 5.9
+          "porcentaje": 6.2
         },
         {
           "nombre": "Pagare $UMV290760012",
-          "porcentaje": 4.1
+          "porcentaje": 4.3
         },
         {
           "nombre": "Pagare $UMV070760004",
-          "porcentaje": 4
+          "porcentaje": 4.3
         },
         {
           "nombre": "Pagare $MAV040660038",
-          "porcentaje": 2.9
-        },
-        {
-          "nombre": "ON Capex C6",
-          "porcentaje": 2.8
-        },
-        {
-          "nombre": "ON Invap C6 S1",
-          "porcentaje": 2.5
+          "porcentaje": 3.1
         },
         {
           "nombre": "ON Special G y Petroagro C3",
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Letra Tesoro Nac D31L6",
           "porcentaje": 2.4
-        },
-        {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 2.4
-        },
-        {
-          "nombre": "ON YPF Clase 30",
-          "porcentaje": 2.2
-        },
-        {
-          "nombre": "FF Creditech S5 CA",
-          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300660006",
-          "porcentaje": 2
+          "porcentaje": 2.2
         },
         {
           "nombre": "Pagare $UMV140760001",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170010",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170011",
-          "porcentaje": 2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Pagare $UMV300170012",
+          "porcentaje": 2.1
+        },
+        {
+          "nombre": "ON Aluar Serie 6",
           "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 58.8
+          "porcentaje": 64.8
         }
       ]
     },
@@ -203676,47 +203692,47 @@
       "nombre": "SBS Patrimonio VIII - Clase A",
       "fondoId": 1739,
       "claseId": 5874,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Bono Boncer TZXS8",
-          "porcentaje": 20.9
+          "porcentaje": 20.7
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 19.6
-        },
-        {
-          "nombre": "Bono Boncer TZXO6",
-          "porcentaje": 15.8
+          "porcentaje": 18.8
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 15.6
+          "porcentaje": 15
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 13.9
         },
         {
           "nombre": "Bono Dual TTS26",
-          "porcentaje": 7.9
+          "porcentaje": 7.6
         },
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 7.4
+          "porcentaje": 7.2
         },
         {
           "nombre": "Boncer Mendoza C1",
-          "porcentaje": 5.9
+          "porcentaje": 5.7
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 4.8
         },
         {
           "nombre": "Bono Dual TTD26",
-          "porcentaje": 4.5
-        },
-        {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 2.2
+          "porcentaje": 4.3
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 0.2
+          "porcentaje": 1.8
         }
       ]
     },
@@ -203724,47 +203740,47 @@
       "nombre": "SBS Patrimonio VIII - Clase B",
       "fondoId": 1739,
       "claseId": 5875,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Bono Boncer TZXS8",
-          "porcentaje": 20.9
+          "porcentaje": 20.7
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 19.6
-        },
-        {
-          "nombre": "Bono Boncer TZXO6",
-          "porcentaje": 15.8
+          "porcentaje": 18.8
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 15.6
+          "porcentaje": 15
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 13.9
         },
         {
           "nombre": "Bono Dual TTS26",
-          "porcentaje": 7.9
+          "porcentaje": 7.6
         },
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 7.4
+          "porcentaje": 7.2
         },
         {
           "nombre": "Boncer Mendoza C1",
-          "porcentaje": 5.9
+          "porcentaje": 5.7
+        },
+        {
+          "nombre": "Bono Boncer TZXO6",
+          "porcentaje": 4.8
         },
         {
           "nombre": "Bono Dual TTD26",
-          "porcentaje": 4.5
-        },
-        {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 2.2
+          "porcentaje": 4.3
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 0.2
+          "porcentaje": 1.8
         }
       ]
     },
@@ -203804,39 +203820,27 @@
       "nombre": "SBS Pesos Plus - Clase B",
       "fondoId": 507,
       "claseId": 1025,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Lecer X15Y6",
-          "porcentaje": 25.1
-        },
-        {
-          "nombre": "Lecap S12J6",
-          "porcentaje": 16.5
-        },
-        {
           "nombre": "Lecap S14G6",
-          "porcentaje": 13.9
-        },
-        {
-          "nombre": "Lecap S15Y6",
-          "porcentaje": 13.5
-        },
-        {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 11
+          "porcentaje": 27.5
         },
         {
           "nombre": "Lecap S17L6",
-          "porcentaje": 9.9
+          "porcentaje": 25.9
         },
         {
-          "nombre": "Caucion Colocadora $ Merval",
-          "porcentaje": 5.5
+          "nombre": "Lecap S12J6",
+          "porcentaje": 23.3
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 19.4
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 4.6
+          "porcentaje": 3.8
         }
       ]
     },
@@ -203844,55 +203848,55 @@
       "nombre": "SBS Renta Capital - Clase B",
       "fondoId": 620,
       "claseId": 1252,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Fut Reg ARS",
-          "porcentaje": 23
+          "nombre": "Bono del Tesoro Nacional TZV26",
+          "porcentaje": 17.5
         },
         {
-          "nombre": "Lecap T30J6",
-          "porcentaje": 12.4
+          "nombre": "Letra Tesoro Nac D31L6",
+          "porcentaje": 13.1
         },
         {
           "nombre": "ON Pan American C40",
-          "porcentaje": 10.5
-        },
-        {
-          "nombre": "Lecap S29Y6",
-          "porcentaje": 9.9
+          "porcentaje": 10.3
         },
         {
           "nombre": "ON YPF Clase 30",
-          "porcentaje": 9.9
+          "porcentaje": 9.8
         },
         {
           "nombre": "ON Aluar Serie 6",
-          "porcentaje": 8.2
+          "porcentaje": 8.1
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 8.2
-        },
-        {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 5.9
+          "porcentaje": 8.1
         },
         {
           "nombre": "Pagare $UMV290760014",
           "porcentaje": 5.6
         },
         {
-          "nombre": "ON Oldelval Clase 4",
-          "porcentaje": 3
+          "nombre": "Lecap T30J6",
+          "porcentaje": 4.4
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase I",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "ON Oldelval Clase 4",
           "porcentaje": 2.9
         },
         {
           "nombre": "ON Pan American C33",
-          "porcentaje": 2.4
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 14.9
         }
       ]
     },
@@ -204012,55 +204016,55 @@
       "nombre": "SBS Renta Capital - Clase A",
       "fondoId": 620,
       "claseId": 1251,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Fut Reg ARS",
-          "porcentaje": 23
+          "nombre": "Bono del Tesoro Nacional TZV26",
+          "porcentaje": 17.5
         },
         {
-          "nombre": "Lecap T30J6",
-          "porcentaje": 12.4
+          "nombre": "Letra Tesoro Nac D31L6",
+          "porcentaje": 13.1
         },
         {
           "nombre": "ON Pan American C40",
-          "porcentaje": 10.5
-        },
-        {
-          "nombre": "Lecap S29Y6",
-          "porcentaje": 9.9
+          "porcentaje": 10.3
         },
         {
           "nombre": "ON YPF Clase 30",
-          "porcentaje": 9.9
+          "porcentaje": 9.8
         },
         {
           "nombre": "ON Aluar Serie 6",
-          "porcentaje": 8.2
+          "porcentaje": 8.1
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 8.2
-        },
-        {
-          "nombre": "Lecer X29Y6",
-          "porcentaje": 5.9
+          "porcentaje": 8.1
         },
         {
           "nombre": "Pagare $UMV290760014",
           "porcentaje": 5.6
         },
         {
-          "nombre": "ON Oldelval Clase 4",
-          "porcentaje": 3
+          "nombre": "Lecap T30J6",
+          "porcentaje": 4.4
         },
         {
           "nombre": "FCI Adcap Ahorro Pesos - Clase I",
+          "porcentaje": 3
+        },
+        {
+          "nombre": "ON Oldelval Clase 4",
           "porcentaje": 2.9
         },
         {
           "nombre": "ON Pan American C33",
-          "porcentaje": 2.4
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 14.9
         }
       ]
     },
@@ -204156,83 +204160,83 @@
       "nombre": "SBS Renta Fija Total - Clase JPN",
       "fondoId": 1237,
       "claseId": 3432,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "ON Aluar Serie 6",
-          "porcentaje": 8.6
+          "porcentaje": 8
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 6.6
-        },
-        {
-          "nombre": "US Treasury Bill 120526",
-          "porcentaje": 5.9
+          "porcentaje": 6.1
         },
         {
           "nombre": "ON YPF Clase 30",
-          "porcentaje": 5.7
+          "porcentaje": 5.3
+        },
+        {
+          "nombre": "Fut Reg ARS",
+          "porcentaje": 4.6
         },
         {
           "nombre": "ON YPF Clase XXVII",
-          "porcentaje": 4.7
+          "porcentaje": 4.3
         },
         {
           "nombre": "ON CGC C 39",
-          "porcentaje": 4.5
-        },
-        {
-          "nombre": "Pagare $UMV290760011",
           "porcentaje": 4.2
         },
         {
-          "nombre": "Pagare $UMV141060029",
-          "porcentaje": 4.1
-        },
-        {
-          "nombre": "ON Aluar Serie 7",
+          "nombre": "Pagare $UMV290760011",
           "porcentaje": 3.9
         },
         {
-          "nombre": "US Treasury Bill 110626",
+          "nombre": "Pagare $UMV141060029",
           "porcentaje": 3.8
         },
         {
-          "nombre": "ON Genneia Clase 46",
-          "porcentaje": 3.7
+          "nombre": "US Treasury Bill 160726",
+          "porcentaje": 3.8
         },
         {
-          "nombre": "ON Genneia Clase 41",
+          "nombre": "ON Aluar Serie 7",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "US Treasury Bill 110626",
           "porcentaje": 3.5
         },
         {
-          "nombre": "US Treasury Bill 110826",
-          "porcentaje": 3.2
+          "nombre": "ON Genneia Clase 46",
+          "porcentaje": 3.5
         },
         {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 3.2
+          "nombre": "ON Genneia Clase 41",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "US Treasury Bill 110826",
+          "porcentaje": 3
         },
         {
           "nombre": "ON Telecom C20 TLCLO",
-          "porcentaje": 2.9
+          "porcentaje": 2.7
         },
         {
           "nombre": "ON Telecom C15 TLCGO",
-          "porcentaje": 2.8
+          "porcentaje": 2.6
         },
         {
           "nombre": "ON Aluar Serie 8",
-          "porcentaje": 2.7
+          "porcentaje": 2.5
         },
         {
           "nombre": "ON BBVA Frances Cl 45",
-          "porcentaje": 2.7
+          "porcentaje": 2.4
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 23.1
+          "porcentaje": 29.2
         }
       ]
     },
@@ -204240,83 +204244,83 @@
       "nombre": "SBS Renta Fija Total - Clase Ley N° 27.743",
       "fondoId": 1237,
       "claseId": 5090,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "ON Aluar Serie 6",
-          "porcentaje": 8.6
+          "porcentaje": 8
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C16",
-          "porcentaje": 6.6
-        },
-        {
-          "nombre": "US Treasury Bill 120526",
-          "porcentaje": 5.9
+          "porcentaje": 6.1
         },
         {
           "nombre": "ON YPF Clase 30",
-          "porcentaje": 5.7
+          "porcentaje": 5.3
+        },
+        {
+          "nombre": "Fut Reg ARS",
+          "porcentaje": 4.6
         },
         {
           "nombre": "ON YPF Clase XXVII",
-          "porcentaje": 4.7
+          "porcentaje": 4.3
         },
         {
           "nombre": "ON CGC C 39",
-          "porcentaje": 4.5
-        },
-        {
-          "nombre": "Pagare $UMV290760011",
           "porcentaje": 4.2
         },
         {
-          "nombre": "Pagare $UMV141060029",
-          "porcentaje": 4.1
-        },
-        {
-          "nombre": "ON Aluar Serie 7",
+          "nombre": "Pagare $UMV290760011",
           "porcentaje": 3.9
         },
         {
-          "nombre": "US Treasury Bill 110626",
+          "nombre": "Pagare $UMV141060029",
           "porcentaje": 3.8
         },
         {
-          "nombre": "ON Genneia Clase 46",
-          "porcentaje": 3.7
+          "nombre": "US Treasury Bill 160726",
+          "porcentaje": 3.8
         },
         {
-          "nombre": "ON Genneia Clase 41",
+          "nombre": "ON Aluar Serie 7",
+          "porcentaje": 3.6
+        },
+        {
+          "nombre": "US Treasury Bill 110626",
           "porcentaje": 3.5
         },
         {
-          "nombre": "US Treasury Bill 110826",
-          "porcentaje": 3.2
+          "nombre": "ON Genneia Clase 46",
+          "porcentaje": 3.5
         },
         {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 3.2
+          "nombre": "ON Genneia Clase 41",
+          "porcentaje": 3.3
+        },
+        {
+          "nombre": "US Treasury Bill 110826",
+          "porcentaje": 3
         },
         {
           "nombre": "ON Telecom C20 TLCLO",
-          "porcentaje": 2.9
+          "porcentaje": 2.7
         },
         {
           "nombre": "ON Telecom C15 TLCGO",
-          "porcentaje": 2.8
+          "porcentaje": 2.6
         },
         {
           "nombre": "ON Aluar Serie 8",
-          "porcentaje": 2.7
+          "porcentaje": 2.5
         },
         {
           "nombre": "ON BBVA Frances Cl 45",
-          "porcentaje": 2.7
+          "porcentaje": 2.4
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 23.1
+          "porcentaje": 29.2
         }
       ]
     },
@@ -204324,55 +204328,59 @@
       "nombre": "SBS Renta Mixta - Clase Ley N° 27.743",
       "fondoId": 623,
       "claseId": 4994,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Bono del Tesoro Nacional AO27",
-          "porcentaje": 19.1
-        },
-        {
-          "nombre": "BR Bono Global 2027 10,12",
-          "porcentaje": 14.8
-        },
-        {
           "nombre": "Cta Cte USD JP Morgan",
-          "porcentaje": 12.1
+          "porcentaje": 21.3
         },
         {
-          "nombre": "BC Cencosud 170727",
-          "porcentaje": 10.9
+          "nombre": "BR Bono Global 2027 10.12%",
+          "porcentaje": 15.4
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AO27",
+          "porcentaje": 11.6
         },
         {
           "nombre": "CL Rep Chile 2027",
-          "porcentaje": 10.3
+          "porcentaje": 11.3
         },
         {
           "nombre": "BC Inversiones CMPC 2027",
-          "porcentaje": 9.8
+          "porcentaje": 10.6
         },
         {
           "nombre": "ON Aluar Serie 8",
-          "porcentaje": 6.8
+          "porcentaje": 7.4
         },
         {
           "nombre": "ON Pan American C38",
-          "porcentaje": 6.5
+          "porcentaje": 7.1
         },
         {
           "nombre": "ON Pan American C37",
-          "porcentaje": 4.4
+          "porcentaje": 4.6
         },
         {
           "nombre": "ON Aluar Serie 7",
-          "porcentaje": 2.3
+          "porcentaje": 2.6
+        },
+        {
+          "nombre": "Cta Cte U$D Bank Of New York",
+          "porcentaje": 2.6
         },
         {
           "nombre": "BC Arco 32",
-          "porcentaje": 2.2
+          "porcentaje": 2.4
         },
         {
           "nombre": "BC Bco Credito e Inv 2027",
-          "porcentaje": 2.1
+          "porcentaje": 2.2
+        },
+        {
+          "nombre": "Resto de Activos",
+          "porcentaje": 0.8
         }
       ]
     },
@@ -204560,34 +204568,34 @@
       "nombre": "SBS Renta Mixta III - Clase B",
       "fondoId": 1419,
       "claseId": 4146,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "BR Bono Global 2027 10,12",
-          "porcentaje": 23.5
+          "nombre": "BR Bono Global 2027 10.12%",
+          "porcentaje": 22.4
         },
         {
-          "nombre": "US Treasury Bill 120526",
-          "porcentaje": 15.6
+          "nombre": "US Treasury Bill 160726",
+          "porcentaje": 16
+        },
+        {
+          "nombre": "Cta Cte U$S Citibank EEUU",
+          "porcentaje": 9.9
         },
         {
           "nombre": "ON Pan American C38",
           "porcentaje": 8.4
         },
         {
-          "nombre": "BC Cencosud 170727",
-          "porcentaje": 8.1
-        },
-        {
           "nombre": "US Treasury Bill 110626",
           "porcentaje": 7.8
         },
         {
-          "nombre": "ON YPF Clase 42",
+          "nombre": "ON Pampa Energia C25",
           "porcentaje": 5.7
         },
         {
-          "nombre": "ON Pampa Energia C25",
+          "nombre": "ON YPF Clase 42",
           "porcentaje": 5.7
         },
         {
@@ -204600,7 +204608,7 @@
         },
         {
           "nombre": "ON YPF Clase 38",
-          "porcentaje": 4.4
+          "porcentaje": 4.5
         },
         {
           "nombre": "FCI Adcap Ahorro Dólares - Clase E",
@@ -204608,11 +204616,11 @@
         },
         {
           "nombre": "ON Pan American C37",
-          "porcentaje": 2.8
+          "porcentaje": 2.7
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 3.6
+          "porcentaje": 2.5
         }
       ]
     },
@@ -204620,34 +204628,34 @@
       "nombre": "SBS Renta Mixta III - Clase Ley N° 27.743",
       "fondoId": 1419,
       "claseId": 5091,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "BR Bono Global 2027 10,12",
-          "porcentaje": 23.5
+          "nombre": "BR Bono Global 2027 10.12%",
+          "porcentaje": 22.4
         },
         {
-          "nombre": "US Treasury Bill 120526",
-          "porcentaje": 15.6
+          "nombre": "US Treasury Bill 160726",
+          "porcentaje": 16
+        },
+        {
+          "nombre": "Cta Cte U$S Citibank EEUU",
+          "porcentaje": 9.9
         },
         {
           "nombre": "ON Pan American C38",
           "porcentaje": 8.4
         },
         {
-          "nombre": "BC Cencosud 170727",
-          "porcentaje": 8.1
-        },
-        {
           "nombre": "US Treasury Bill 110626",
           "porcentaje": 7.8
         },
         {
-          "nombre": "ON YPF Clase 42",
+          "nombre": "ON Pampa Energia C25",
           "porcentaje": 5.7
         },
         {
-          "nombre": "ON Pampa Energia C25",
+          "nombre": "ON YPF Clase 42",
           "porcentaje": 5.7
         },
         {
@@ -204660,7 +204668,7 @@
         },
         {
           "nombre": "ON YPF Clase 38",
-          "porcentaje": 4.4
+          "porcentaje": 4.5
         },
         {
           "nombre": "FCI Adcap Ahorro Dólares - Clase E",
@@ -204668,11 +204676,11 @@
         },
         {
           "nombre": "ON Pan American C37",
-          "porcentaje": 2.8
+          "porcentaje": 2.7
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 3.6
+          "porcentaje": 2.5
         }
       ]
     },
@@ -204680,71 +204688,75 @@
       "nombre": "SBS Renta Mixta V - Clase A",
       "fondoId": 1689,
       "claseId": 5635,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "ON Pampa Energia C25",
-          "porcentaje": 11.4
+          "porcentaje": 10.6
         },
         {
           "nombre": "ON Oldelval Clase 6",
-          "porcentaje": 8.3
-        },
-        {
-          "nombre": "ON Telecom C24",
-          "porcentaje": 7.4
+          "porcentaje": 7.7
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C29",
-          "porcentaje": 7.4
-        },
-        {
-          "nombre": "Bono Prov Cordoba 2032",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "ON Pan American C31",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "ON YPF Clase 31",
-          "porcentaje": 7.2
-        },
-        {
-          "nombre": "ON Central Puerto Clase C",
-          "porcentaje": 6.9
-        },
-        {
-          "nombre": "Bono Prov Santa Fe 8.1% 111234",
           "porcentaje": 6.8
         },
         {
-          "nombre": "Bono Prov Cordoba 2029 CO27D",
+          "nombre": "Bono Prov Cordoba 2032",
           "porcentaje": 6.7
         },
         {
+          "nombre": "ON Pan American C31",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "ON YPF Clase 31",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "ON Telecom C24",
+          "porcentaje": 6.6
+        },
+        {
+          "nombre": "ON Central Puerto Clase C",
+          "porcentaje": 6.4
+        },
+        {
+          "nombre": "Bono Prov Santa Fe 8.1% 111234",
+          "porcentaje": 6.3
+        },
+        {
+          "nombre": "ON Arcor C5",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Bono Prov Cordoba 2029 CO27D",
+          "porcentaje": 6.2
+        },
+        {
           "nombre": "ON Pluspetrol Clase 5",
-          "porcentaje": 6.5
+          "porcentaje": 5.8
         },
         {
           "nombre": "ON YPF Luz C23",
-          "porcentaje": 4.6
+          "porcentaje": 4.3
         },
         {
           "nombre": "ON Genneia Clase 48",
-          "porcentaje": 3.5
+          "porcentaje": 3.3
         },
         {
           "nombre": "ON Oldelval Clase 7",
-          "porcentaje": 3.5
+          "porcentaje": 3.2
         },
         {
-          "nombre": "ON Oiltanking S3",
-          "porcentaje": 2.1
+          "nombre": "ON Pan American C35",
+          "porcentaje": 2.3
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 3
+          "porcentaje": 4.4
         }
       ]
     },
@@ -204788,71 +204800,75 @@
       "nombre": "SBS Renta Mixta V - Clase B",
       "fondoId": 1689,
       "claseId": 5636,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "ON Pampa Energia C25",
-          "porcentaje": 11.4
+          "porcentaje": 10.6
         },
         {
           "nombre": "ON Oldelval Clase 6",
-          "porcentaje": 8.3
-        },
-        {
-          "nombre": "ON Telecom C24",
-          "porcentaje": 7.4
+          "porcentaje": 7.7
         },
         {
           "nombre": "ON Vista Gas y Oil Arg C29",
-          "porcentaje": 7.4
-        },
-        {
-          "nombre": "Bono Prov Cordoba 2032",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "ON Pan American C31",
-          "porcentaje": 7.3
-        },
-        {
-          "nombre": "ON YPF Clase 31",
-          "porcentaje": 7.2
-        },
-        {
-          "nombre": "ON Central Puerto Clase C",
-          "porcentaje": 6.9
-        },
-        {
-          "nombre": "Bono Prov Santa Fe 8.1% 111234",
           "porcentaje": 6.8
         },
         {
-          "nombre": "Bono Prov Cordoba 2029 CO27D",
+          "nombre": "Bono Prov Cordoba 2032",
           "porcentaje": 6.7
         },
         {
+          "nombre": "ON Pan American C31",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "ON YPF Clase 31",
+          "porcentaje": 6.7
+        },
+        {
+          "nombre": "ON Telecom C24",
+          "porcentaje": 6.6
+        },
+        {
+          "nombre": "ON Central Puerto Clase C",
+          "porcentaje": 6.4
+        },
+        {
+          "nombre": "Bono Prov Santa Fe 8.1% 111234",
+          "porcentaje": 6.3
+        },
+        {
+          "nombre": "ON Arcor C5",
+          "porcentaje": 6.2
+        },
+        {
+          "nombre": "Bono Prov Cordoba 2029 CO27D",
+          "porcentaje": 6.2
+        },
+        {
           "nombre": "ON Pluspetrol Clase 5",
-          "porcentaje": 6.5
+          "porcentaje": 5.8
         },
         {
           "nombre": "ON YPF Luz C23",
-          "porcentaje": 4.6
+          "porcentaje": 4.3
         },
         {
           "nombre": "ON Genneia Clase 48",
-          "porcentaje": 3.5
+          "porcentaje": 3.3
         },
         {
           "nombre": "ON Oldelval Clase 7",
-          "porcentaje": 3.5
+          "porcentaje": 3.2
         },
         {
-          "nombre": "ON Oiltanking S3",
-          "porcentaje": 2.1
+          "nombre": "ON Pan American C35",
+          "porcentaje": 2.3
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 3
+          "porcentaje": 4.4
         }
       ]
     },
@@ -205092,75 +205108,75 @@
       "nombre": "SBS Renta Pesos - Clase Ley N° 27.743",
       "fondoId": 438,
       "claseId": 4995,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
-          "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 19
+          "nombre": "Bono Boncer TZXS8",
+          "porcentaje": 16.4
         },
         {
           "nombre": "Bono Boncer TZX28",
-          "porcentaje": 15.1
-        },
-        {
-          "nombre": "Bono Boncer TZXS8",
-          "porcentaje": 12.2
-        },
-        {
-          "nombre": "Bono Prov Cordoba Clase 4",
-          "porcentaje": 8.2
+          "porcentaje": 13.4
         },
         {
           "nombre": "Bono Boncer 2027 TZXM7",
-          "porcentaje": 7.4
+          "porcentaje": 10.6
+        },
+        {
+          "nombre": "Bono Boncer TZXD7",
+          "porcentaje": 7.9
+        },
+        {
+          "nombre": "Bono Prov Cordoba Clase 4",
+          "porcentaje": 7.2
+        },
+        {
+          "nombre": "Bono Boncer TZXD6",
+          "porcentaje": 6.3
+        },
+        {
+          "nombre": "FCI Schroder Liquidez - Clase B",
+          "porcentaje": 4.4
         },
         {
           "nombre": "Cheque E *MAV080600894",
-          "porcentaje": 4.6
+          "porcentaje": 4
         },
         {
           "nombre": "Letra Prov Bs As XB2S6",
-          "porcentaje": 4.2
-        },
-        {
-          "nombre": "FCI Adcap Ahorro Pesos - Clase I",
-          "porcentaje": 4.1
-        },
-        {
-          "nombre": "Boncer Mendoza C1",
           "porcentaje": 3.7
         },
         {
+          "nombre": "Boncer Mendoza C1",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "Cheque E *MAV251001179",
+          "porcentaje": 3.2
+        },
+        {
           "nombre": "Cheque E *MAV250901127",
-          "porcentaje": 3.6
+          "porcentaje": 3.1
         },
         {
           "nombre": "Bono Disc ARS Ley AR DICP",
-          "porcentaje": 3
+          "porcentaje": 2.6
         },
         {
           "nombre": "Bono Prov Cordoba Clase 6",
-          "porcentaje": 2.9
+          "porcentaje": 2.6
         },
         {
           "nombre": "Letra Prov Bs As PBA28",
-          "porcentaje": 2.4
-        },
-        {
-          "nombre": "ON FCA Comp. Finac CL 20 S1",
-          "porcentaje": 2.4
+          "porcentaje": 2.1
         },
         {
           "nombre": "ON Rombo Cia Fciera S66",
-          "porcentaje": 2.4
-        },
-        {
-          "nombre": "Cheque E *MAV250801352",
           "porcentaje": 2.1
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 2.9
+          "porcentaje": 7.3
         }
       ]
     },
@@ -205260,7 +205276,7 @@
       "nombre": "SBS Retorno Sustentable ASG - Clase B",
       "fondoId": 1504,
       "claseId": 4500,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "ON Sumatoria C8",
@@ -205268,23 +205284,23 @@
         },
         {
           "nombre": "ON Genneia Clase 46",
-          "porcentaje": 18.4
+          "porcentaje": 18.3
         },
         {
           "nombre": "ON Plaza Logistica C15",
-          "porcentaje": 14.4
+          "porcentaje": 14.5
         },
         {
           "nombre": "ON Pyme Tecnovax S1 C2",
-          "porcentaje": 13.6
+          "porcentaje": 13.5
         },
         {
           "nombre": "ON Luz De Tres Picos C4",
-          "porcentaje": 12.1
+          "porcentaje": 12
         },
         {
           "nombre": "Caucion Colocadora $ Merval",
-          "porcentaje": 9.2
+          "porcentaje": 9.1
         },
         {
           "nombre": "ON Fundación IFI C2",
@@ -205448,15 +205464,15 @@
       "nombre": "SBS Tavelli Global - Clase P",
       "fondoId": 523,
       "claseId": 1057,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Bono Buenos Aires 2037",
-          "porcentaje": 7.6
+          "porcentaje": 7.5
         },
         {
           "nombre": "Bonos Rep Argentina 2030",
-          "porcentaje": 5
+          "porcentaje": 4.8
         },
         {
           "nombre": "ON YPF Clase 34",
@@ -205468,7 +205484,7 @@
         },
         {
           "nombre": "Bonos Rep Argentina AE38",
-          "porcentaje": 3.8
+          "porcentaje": 3.7
         },
         {
           "nombre": "Bono Prov Cordoba 2029 CO27D",
@@ -205488,7 +205504,7 @@
         },
         {
           "nombre": "Bono Prov Cordoba 2032",
-          "porcentaje": 2.2
+          "porcentaje": 2.1
         },
         {
           "nombre": "Bono Prov Cordoba Clase 4",
@@ -205499,16 +205515,16 @@
           "porcentaje": 2
         },
         {
-          "nombre": "Bono Prov Cordoba 030235",
-          "porcentaje": 2
-        },
-        {
           "nombre": "ON YPF C 17",
           "porcentaje": 2
         },
         {
+          "nombre": "Bono Prov Cordoba 030235",
+          "porcentaje": 2
+        },
+        {
           "nombre": "Resto de Activos",
-          "porcentaje": 53.7
+          "porcentaje": 54
         }
       ]
     },
@@ -205800,43 +205816,43 @@
       "nombre": "Schroder Argentina - Clase B",
       "fondoId": 143,
       "claseId": 143,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Fut Reg ARS",
-          "porcentaje": 38.6
+          "porcentaje": 44.5
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 26.2
-        },
-        {
-          "nombre": "Bono Boncer TZX28",
-          "porcentaje": 20.5
-        },
-        {
-          "nombre": "Lecer X15Y6",
-          "porcentaje": 18.4
-        },
-        {
-          "nombre": "Caucion Colocadora $ Merval",
-          "porcentaje": 8.6
-        },
-        {
-          "nombre": "Bono Boncer TX26",
-          "porcentaje": 7.8
-        },
-        {
-          "nombre": "Bono Disc ARS Ley AR DICP",
-          "porcentaje": 7.7
+          "porcentaje": 27.1
         },
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 7.5
+          "porcentaje": 20.5
         },
         {
-          "nombre": "FCI Balanz Capital Money Market Clase C",
-          "porcentaje": 2.8
+          "nombre": "Bono Disc ARS Ley AR DICP",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Bono Boncer TZXS7",
+          "porcentaje": 9.3
+        },
+        {
+          "nombre": "Bono Boncer TX26",
+          "porcentaje": 9.2
+        },
+        {
+          "nombre": "Caucion Colocadora $ Merval",
+          "porcentaje": 8.8
+        },
+        {
+          "nombre": "Bono Boncer TZX28",
+          "porcentaje": 8.5
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 5.7
         }
       ]
     },
@@ -206428,51 +206444,43 @@
       "nombre": "Schroder Crecimiento - Clase A",
       "fondoId": 1555,
       "claseId": 4892,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 25.7
+          "porcentaje": 24.1
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 20.1
+          "porcentaje": 17.3
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 15.3
+          "porcentaje": 14.4
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 13.2
         },
         {
           "nombre": "Bono Boncer TX26",
-          "porcentaje": 10.2
+          "porcentaje": 9.6
         },
         {
           "nombre": "Bono Boncer TZX28",
-          "porcentaje": 9.3
-        },
-        {
-          "nombre": "Caucion Colocadora $ Merval",
-          "porcentaje": 4.4
-        },
-        {
-          "nombre": "FCI Balanz Capital Money Market Clase C",
-          "porcentaje": 4
+          "porcentaje": 8.9
         },
         {
           "nombre": "ON Banco Nacion Argentina Clase 3",
-          "porcentaje": 3.7
+          "porcentaje": 3.5
         },
         {
           "nombre": "Letra Entre Rios ERE27",
-          "porcentaje": 3
-        },
-        {
-          "nombre": "Boncer Mendoza C1",
-          "porcentaje": 2
+          "porcentaje": 2.8
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 2.1
+          "porcentaje": 6.2
         }
       ]
     },
@@ -206568,51 +206576,43 @@
       "nombre": "Schroder Crecimiento - Clase C",
       "fondoId": 1555,
       "claseId": 4894,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Lecer X30N6",
-          "porcentaje": 25.7
+          "porcentaje": 24.1
         },
         {
           "nombre": "Bono Boncer TZX26",
-          "porcentaje": 20.1
+          "porcentaje": 17.3
         },
         {
           "nombre": "Bono Boncer TZXD6",
-          "porcentaje": 15.3
+          "porcentaje": 14.4
+        },
+        {
+          "nombre": "Lecap S30S6",
+          "porcentaje": 13.2
         },
         {
           "nombre": "Bono Boncer TX26",
-          "porcentaje": 10.2
+          "porcentaje": 9.6
         },
         {
           "nombre": "Bono Boncer TZX28",
-          "porcentaje": 9.3
-        },
-        {
-          "nombre": "Caucion Colocadora $ Merval",
-          "porcentaje": 4.4
-        },
-        {
-          "nombre": "FCI Balanz Capital Money Market Clase C",
-          "porcentaje": 4
+          "porcentaje": 8.9
         },
         {
           "nombre": "ON Banco Nacion Argentina Clase 3",
-          "porcentaje": 3.7
+          "porcentaje": 3.5
         },
         {
           "nombre": "Letra Entre Rios ERE27",
-          "porcentaje": 3
-        },
-        {
-          "nombre": "Boncer Mendoza C1",
-          "porcentaje": 2
+          "porcentaje": 2.8
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 2.1
+          "porcentaje": 6.2
         }
       ]
     },
@@ -207108,67 +207108,71 @@
       "nombre": "Schroder Income - Clase E",
       "fondoId": 833,
       "claseId": 2367,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Cta Cte U$S Bco Valores",
-          "porcentaje": 11.5
+          "porcentaje": 16.6
         },
         {
           "nombre": "BC Inversiones CMPC 2027",
-          "porcentaje": 8.9
+          "porcentaje": 8.5
         },
         {
           "nombre": "BR Rep Brasil 28",
-          "porcentaje": 8.7
-        },
-        {
-          "nombre": "CL Rep Chile 2027",
           "porcentaje": 8.3
         },
         {
           "nombre": "CL Rep Chile 28",
-          "porcentaje": 8.2
+          "porcentaje": 7.8
         },
         {
           "nombre": "Bono Corporativo 3.625% 010827",
-          "porcentaje": 7.6
+          "porcentaje": 7.3
+        },
+        {
+          "nombre": "CL Rep Chile 2027",
+          "porcentaje": 7.1
         },
         {
           "nombre": "BR Brasil 300529",
-          "porcentaje": 7.5
+          "porcentaje": 7.1
         },
         {
           "nombre": "BC Enel Chile 4.875",
-          "porcentaje": 6.5
+          "porcentaje": 6.2
         },
         {
           "nombre": "BC Transelec 120129",
-          "porcentaje": 6.4
+          "porcentaje": 6.1
         },
         {
           "nombre": "BC Bco Credito e Inv 2027",
-          "porcentaje": 6.4
-        },
-        {
-          "nombre": "BC GNL Quintero 310729",
           "porcentaje": 5.8
         },
         {
+          "nombre": "BC GNL Quintero 310729",
+          "porcentaje": 5.5
+        },
+        {
           "nombre": "BC Latam Airlines 7.875%",
-          "porcentaje": 4
+          "porcentaje": 3.9
         },
         {
           "nombre": "BR Rep Brasil 2030",
-          "porcentaje": 2.9
+          "porcentaje": 2.7
         },
         {
           "nombre": "BC Sociedad Quimica y Min 2029",
-          "porcentaje": 2.9
+          "porcentaje": 2.7
+        },
+        {
+          "nombre": "BC Centrales Elec. Brasileras 2030",
+          "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 4.5
+          "porcentaje": 2.5
         }
       ]
     },
@@ -218084,71 +218088,71 @@
       "nombre": "Superfondo Renta Fija Dólares II - Clase A",
       "fondoId": 720,
       "claseId": 1565,
-      "fecha": "2026-05-08",
+      "fecha": "2026-05-29",
       "items": [
         {
           "nombre": "Cta Cte U$S Bco Santander",
-          "porcentaje": 24.1
+          "porcentaje": 21.8
         },
         {
           "nombre": "BC Brasil 110630",
-          "porcentaje": 7.7
+          "porcentaje": 7.9
         },
         {
           "nombre": "US Treasury Note 3.5% 300927",
-          "porcentaje": 6.2
+          "porcentaje": 6.4
+        },
+        {
+          "nombre": "Cta Cte USD JP Morgan",
+          "porcentaje": 5.8
         },
         {
           "nombre": "BC SQM 6.5%",
-          "porcentaje": 4.7
+          "porcentaje": 4.8
         },
         {
           "nombre": "BC Itau Unibanco 270230",
-          "porcentaje": 4.6
+          "porcentaje": 4.7
         },
         {
           "nombre": "Bono Corporativo 3.625% 010827",
-          "porcentaje": 4.4
+          "porcentaje": 4.5
         },
         {
           "nombre": "CL Rep Chile 2027",
-          "porcentaje": 4.4
+          "porcentaje": 4.5
         },
         {
           "nombre": "BC Celulosa Arauco y Constitución 4.25%",
-          "porcentaje": 4.2
+          "porcentaje": 4.3
         },
         {
           "nombre": "BC Enap 2031",
-          "porcentaje": 4.1
+          "porcentaje": 4.2
         },
         {
           "nombre": "BC Inversiones CMPC 060431",
-          "porcentaje": 3.9
+          "porcentaje": 4
         },
         {
           "nombre": "BC Banco Santander Chile 3.177% 271031",
-          "porcentaje": 3.4
+          "porcentaje": 3.5
+        },
+        {
+          "nombre": "BC BTG 080429",
+          "porcentaje": 3.3
         },
         {
           "nombre": "BC Cencosud 5.95%",
           "porcentaje": 3.3
         },
         {
-          "nombre": "BC BTG 080429",
-          "porcentaje": 3.2
-        },
-        {
-          "nombre": "BC Cencosud 170727",
-          "porcentaje": 3.2
-        },
-        {
           "nombre": "BC Banco Do Brasil 2029",
-          "porcentaje": 3.2
+          "porcentaje": 3.3
         },
         {
           "nombre": "Banco de Chile 299",
-          "porcentaje": 2.9
+          "porcentaje": 3
         },
         {
           "nombre": "BC De Credito de Inversiones 2.875%",
@@ -218156,15 +218160,15 @@
         },
         {
           "nombre": "BC Colbun 35",
-          "porcentaje": 2.5
+          "porcentaje": 2.6
         },
         {
-          "nombre": "Cta Cte USD JP Morgan",
-          "porcentaje": 2.2
+          "nombre": "BC Chile 4.85%",
+          "porcentaje": 2
         },
         {
           "nombre": "Resto de Activos",
-          "porcentaje": 5
+          "porcentaje": 3.1
         }
       ]
     },
@@ -242457,6 +242461,102 @@
         {
           "nombre": "Resto de Activos",
           "porcentaje": 8.2
+        }
+      ]
+    },
+    "mills-renta-fija-dolares-clase-xdb1": {
+      "nombre": "Mills Renta Fija Dólares - Clase XDB1",
+      "fondoId": 1829,
+      "claseId": 6288,
+      "fecha": "2026-05-29",
+      "items": [
+        {
+          "nombre": "Cta Cte U$S Bco Valores",
+          "porcentaje": 46
+        },
+        {
+          "nombre": "Caucion Colocadora U$S Merval",
+          "porcentaje": 16.2
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AO28",
+          "porcentaje": 9.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AO27",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "FCI Megaqm Liquidez Dólar - Clase B",
+          "porcentaje": 4
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AN29",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON YPF Clase 42",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "ON John Deere Cia. Fin C14",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Tecpetrol C13",
+          "porcentaje": 2.3
+        }
+      ]
+    },
+    "mills-renta-fija-dolares-clase-xdb2": {
+      "nombre": "Mills Renta Fija Dólares - Clase XDB2",
+      "fondoId": 1829,
+      "claseId": 6289,
+      "fecha": "2026-05-29",
+      "items": [
+        {
+          "nombre": "Cta Cte U$S Bco Valores",
+          "porcentaje": 46
+        },
+        {
+          "nombre": "Caucion Colocadora U$S Merval",
+          "porcentaje": 16.2
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AO28",
+          "porcentaje": 9.8
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AO27",
+          "porcentaje": 8.6
+        },
+        {
+          "nombre": "Bonos Rep Argentina 2030",
+          "porcentaje": 5.1
+        },
+        {
+          "nombre": "FCI Megaqm Liquidez Dólar - Clase B",
+          "porcentaje": 4
+        },
+        {
+          "nombre": "Bono del Tesoro Nacional AN29",
+          "porcentaje": 3.2
+        },
+        {
+          "nombre": "ON YPF Clase 42",
+          "porcentaje": 2.4
+        },
+        {
+          "nombre": "ON John Deere Cia. Fin C14",
+          "porcentaje": 2.3
+        },
+        {
+          "nombre": "ON Tecpetrol C13",
+          "porcentaje": 2.3
         }
       ]
     }
